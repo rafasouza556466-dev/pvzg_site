@@ -3,29 +3,24 @@
     "Version": "v0.5.1",
     "InsideVersion": "0.5.1",
     "Updates": [
+       
         {
-            "en": "Added Cantaloupe-pult, Iceweed.",
-            "zh": "加入哈密瓜投手、冰地刺。"
-        },
-        {
-            "en": "Added Card Decks in Choose-Your-Seed window.",
-            "zh": "在选卡界面加入卡组功能。"
+            "en": "Added Player's House Worldmap, with new levels (1-4).",
+            "zh": "プレイヤーハウスワールドマップ、新しいレベル（1-4）。"
         }
     ],
     "NewFeatures": [
-        "加入哈密瓜投手、冰地刺。",
-        "在选卡界面加入卡组功能。"
+         "プレイヤーハウスワールドマップ、新しいレベル（1-4)。"
     ],
     "EnNewFeatures": [
-        "Added Cantaloupe-pult, Iceweed.",
-        "Added Card Decks in Choose-Your-Seed window."
+        "Player's House Worldmap, with new levels (1-4)."
     ],
     "Download": {
-        "Quark": "https://pan.quark.cn/s/9f5f689bc00a",
-        "Baidu": "https://pan.baidu.com/s/1cVN5HLQl8GteU_0MXzRLTQ?pwd=pvz2",
-        "Pan123": "https://www.123865.com/s/xUemTd-fqiCh",
-        "Github": "https://github.com/Gzh0821/pvzg_site/releases/tag/0.5.1",
-        "Storage": "https://storage.pvzge.com/pvzge-0.5.1.zip",
+        "Quark": "https://pan.quark.cn/s/906366vgdyhfk",
+        "Baidu": "https://pan.baidu.com/s/1cV646657886Nh?pwd=pvz2",
+        "Pan123": "https://www.123865.com/s/5adgdC64tgCydyyH",
+        "Github": "https://github.com/Gzh0821/pvzg_site/releases/tag/0.5.2",
+        "Storage": "https://storage.pvzge.com/pvzge-0.5.2.zip",
         "TmpLink": "",
         "Mega": "",
         "Feijipan": ""
