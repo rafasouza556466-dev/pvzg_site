@@ -1,43 +1,26 @@
 {
-    "Name": "PvZ2_Prerelease_ZenGarden_P3",
-    "Version": "v0.6.4",
-    "InsideVersion": "0.6.4",
+    "Name": "PvZ2_Prerelease_PH_P1",
+    "Version": "v0.6.5",
+    "InsideVersion": "0.6.5",
     "Updates": [
         {
-            "en": "Collect 3 boosts for each reinforce-mint plants to collect their medals, and the Reinforce-mint.",
-            "zh": "为每株防御家族植物收集 3 次爆发，为其获得相应的徽章，以及防御薄荷。"
+            "en": "Added Tutorial Level 2 (by 保罗-刘).",
+            "zh": "添加了教程级别 2（由保罗-刘）。”"
         },
-        {
-            "en": "Added Aloe, Holly Knight, Caulipower, Gumnut, Reinforce-mint.",
-            "zh": "加入芦荟、冬青骑士、超能花菜、香果胶、防御薄荷。"
-        },
-        {
-            "en": "Added Epic Levels for Reinforce-mint Family (Written by: 保罗-刘).",
-            "zh": "加入防御家族史诗关卡（作者：保罗-刘）。"
-        },
-        {
-            "en": "Added 'Recommended Card Decks' and 'Challenging Card Decks' for most epic levels (created & tested by the community).",
-            "zh": "大部分史诗关卡加入“推荐卡组”、“挑战卡组”功能（由社区编写和测试）。"
-        }
+   
     ],
     "NewFeatures": [
-        "为每株防御家族植物收集 3 次爆发，为其获得相应的徽章，以及防御薄荷。",
-        "加入芦荟、冬青骑士、超能花菜、香果胶、防御薄荷。",
-        "加入防御家族史诗关卡（作者：保罗-刘）。",
-        "大部分史诗关卡加入“推荐卡组”、“挑战卡组”功能（由社区编写和测试）。"
+        "添加了教程级别 2（由保罗-刘）。”
     ],
     "EnNewFeatures": [
-        "Collect 3 boosts for each reinforce-mint plants to collect their medals, and the Reinforce-mint.",
-        "Added Aloe, Holly Knight, Caulipower, Gumnut, Reinforce-mint.",
-        "Added Epic Levels for Reinforce-mint Family (Written by: 保罗-刘).",
-        "Added 'Recommended Card Decks' and 'Challenging Card Decks' for most epic levels (created & tested by the community)."
+        "Added Tutorial Level 2 (by 保罗-刘)."
     ],
     "Download": {
-        "Quark": "https://pan.quark.cn/s/042de9d09a9e",
-        "Baidu": "https://pan.baidu.com/s/1f-DYjxej6vzjYvjMa1dQpw?pwd=pvz2",
-        "Pan123": "https://www.123865.com/s/xUemTd-kTLCh?pwd=9fJR#",
-        "Github": "https://github.com/Gzh0821/pvzg_site/releases/tag/0.6.4",
-        "Storage": "https://storage.pvzge.com/pvzge-0.6.4.zip",
+        "Quark": "https://pan.quark.cn/s/8744Aa3253386A5",
+        "Baidu": "https://pan.baidu.com/s/6asTraf654Aa743r?pwd=pvz2",
+        "Pan123": "https://www.123865.com/s/UJkgafikngs315#",
+        "Github": "https://github.com/Gzh0821/pvzg_site/releases/tag/0.6.5",
+        "Storage": "https://storage.pvzge.com/pvzge-0.6.5.zip",
         "TmpLink": "",
         "Mega": "",
         "Feijipan": ""
