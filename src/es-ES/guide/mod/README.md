@@ -1,5 +1,5 @@
 ---
-title: MOD tutorial
+title: Guia de MOD
 index: true
 icon: toolbox
 pageInfo: false
@@ -8,23 +8,20 @@ dir:
   order: 6
 ---
 
-<script>
-import { onMounted } from 'vue'
-onMounted(() => {
-  (window.adsbygoogle = window.adsbygoogle || []).push({});
-})
-</script>
+# GP-Next
 
-> [!tip]
-> Starting from version `0.2.8.1`, PvZ2 Gardendless supports partial Patch functionality. You can use the built-in GE Patcher in the game to modify JSON files to customize plants, zombies, the store, and levels. This feature is not available in the online version.
->
-> The development team does not guarantee that this feature will be supported in future versions, which depends on the game's updates and maintenance.
+GP-Next es la herramienta principal de modding y depuracion de PvZ2 Gardendless. Puedes usarla para:
 
-<Catalog />
+- gestionar datapacks y parches de un solo archivo
+- explorar y editar datos del juego en tiempo real
+- crear paquetes de idioma y parches de niveles
+- usar funciones en tiempo de ejecucion como Trainer, HP Overlay y Runtime Extensions
+- llamar funciones expuestas por `window.gpNext` desde la consola
 
-<ins class="adsbygoogle"
-  style="display:block"
-  data-ad-client="ca-pub-7637695321442015"
-  data-ad-slot="7113006248"
-  data-ad-format="auto"
-  data-full-width-responsive="true"> </ins>
+## Orden de lectura
+
+- Para empezar: "Introduccion a GP-Next" -> "Estructura" -> "Datapacks y `pack.json`"
+- Para cambiar valores: "Reglas de fusion" -> "Datos originales" -> "Tipos y campos"
+- Para editar el mapa mundial: "Datapacks y `pack.json`" -> "Mapa"
+- Para traducir texto: "Paquetes de idioma y `lang.json`"
+- Para comandos de consola: "API de consola"

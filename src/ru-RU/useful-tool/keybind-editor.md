@@ -28,10 +28,16 @@ next: false
 >
 > Вы можете привязать несколько функций к одной клавише, однако учтите: некоторые из них могут конфликтовать или работать некорректно.
 
+## Связанные инструменты и гайды
+
+- Редактирование сохранений: [Редактор Сохранений](./save-editor.md)
+- Поиск ID растений и зомби: [Онлайн-альманах](../almanac/)
+- Патчи и datapack: [Гайд по MOD](../guide/mod/)
+
 <ins class="adsbygoogle"
 style="display:block"
-data-ad-client="ca-pub-7637695321442015"
-data-ad-slot="7113006248"
+data-ad-client="ca-pub-2336226859954206"
+data-ad-slot="1822530351"
 data-ad-format="auto"
 data-full-width-responsive="true"> </ins>
 

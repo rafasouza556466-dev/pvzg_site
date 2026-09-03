@@ -1,5 +1,5 @@
 ---
-title: Agreement and Statement
+title: Statement
 index: false
 icon: info
 pageInfo: false
@@ -7,8 +7,7 @@ comment: false
 ---
 The usage, play-related agreements and statements of PvZ2 Gardendless are as follows:
 
-- ["PvZ2 Gardendless" Usage Agreement](Agreement.md)
-- [Disclaimer and Copyright Notice for "PvZ2 Gardendless"](Disclaimer.md)
+- ["PvZ2 Gardendless" User Agreement and Disclaimer](Agreement.md)
 
 The open source agreement of this website is as follows:
 

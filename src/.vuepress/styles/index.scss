@@ -57,6 +57,14 @@ iframe.youtube-video {
     height: 100%;
 }
 
+@media (max-width: 719px) {
+    #markdown-content .adsbygoogle > div,
+    #markdown-content .adsbygoogle iframe {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
 .vp-hero-info {
     display: block;
     text-align: center;
@@ -71,29 +79,35 @@ iframe.youtube-video {
     max-width: 100%;
 }
 
-// For Special Event
+// Summer navbar
 
 .vp-navbar {
-    // background: linear-gradient(to right, #ffe0e9, #fff0e0, #fff9d9, #e0f8ef, #e0efff, #eee5ff);
-    // linear-gradient(110deg, #F5F3E6, #A8D8B9, #E0EAE6);
-    background-image: url('/assets/image/subtle-white-feathers.png'),
-        linear-gradient(120deg, #ffd700, #ff8c00, #e5533b);
+    background:
+        linear-gradient(90deg,
+            rgba(74, 188, 181, 0.34) 0%,
+            rgba(241, 207, 78, 0.34) 50%,
+            rgba(115, 205, 211, 0.36) 100%),
+        rgba(247, 252, 250, 0.92);
+    box-shadow: 0 1px 0 rgba(8, 105, 99, 0.24);
 }
 
 [data-theme="dark"] .vp-navbar {
-    // background: linear-gradient(to right, #8c232c, #995000, #9a8e00, #2a5c43, #125699, #4c1d73);
-    // background: linear-gradient(110deg, #1C332A, #3A7D63, #224237);
-    background-image: url('/assets/image/subtle-white-feathers.png'),
-        linear-gradient(120deg, #4d3d00, #a14b00, #802313);
+    background:
+        linear-gradient(90deg,
+            rgba(20, 133, 127, 0.42) 0%,
+            rgba(171, 139, 31, 0.3) 50%,
+            rgba(27, 126, 145, 0.4) 100%),
+        #061a1c;
+    box-shadow: 0 1px 0 rgba(89, 230, 219, 0.3);
 }
-
 
 .vp-navbar::before {
-    content: "☯";
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    inset-block-end: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #2aa9a2, #e7c84b, #54c4c6);
+    opacity: 0.8;
+    pointer-events: none;
 }
-
-// .vp-hero-title {
-//     background: linear-gradient(120deg, #e50000 30%, #ff8d00, #ffee00, #028121, #004cff, #770088 70%);
-//     -webkit-background-clip: text;
-//     background-clip: text;
-// }

@@ -1,5 +1,5 @@
 ---
-title: 用户社区
+title: 社区
 index: true
 order: 1
 icon: comment
@@ -24,25 +24,18 @@ pageInfo: false
 
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-client="ca-pub-7637695321442015"
-     data-ad-slot="7113006248"
+     data-ad-client="ca-pub-2336226859954206"
+     data-ad-slot="1822530351"
      data-ad-format="auto"
      data-full-width-responsive="true">
 </ins>
 
 <div class="vp-card-container">
   <VPCard
-    title="QQ活跃聊天群"
-    desc="群号：980405270，适合想提供帮助，分享攻略和参与讨论的玩家"
+    title="QQ公告群-6"
+    desc="群号：1022799196，适合潜水和获取最新版本的信息"
     logo="/assets/image/qq.svg"
-    link="https://qm.qq.com/q/MIqVcRAg8u"
-    background="rgba(245, 158, 0, 0.15)"
-  />
-  <VPCard
-    title="QQ公告群-4"
-    desc="群号：981880465，适合潜水和获取最新版本的信息"
-    logo="/assets/image/qq.svg"
-    link="https://qm.qq.com/q/8LkQioyGI2"
+    link="https://qm.qq.com/cgi-bin/qm/qr?k=rYECBLqDrqVG6p1MY2YeVd9TkkTBWI36&jump_from=webapi&authKey=/ro2FD+hdoARQYdsqzx/fSBseCiaGDEdnJVP9ODBdXM3gQXux/c/f0OOkLwNDK3/"
     background="rgba(228, 0, 54, 0.15)"
   />
   <VPCard

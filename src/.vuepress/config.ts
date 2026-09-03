@@ -4,6 +4,7 @@ import theme from "./theme.js";
 import vueI18n from '@intlify/unplugin-vue-i18n/vite'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { almanacPagesPlugin } from './plugins/almanac-pages.mjs'
 
 export default defineUserConfig({
   base: "/",
@@ -24,10 +25,10 @@ export default defineUserConfig({
       `,
     ],
     ['script', {
-      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7637695321442015',
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2336226859954206',
       async: true, crossorigin: 'anonymous'
     }],
-    ['meta', { name: 'google-adsense-account', content: 'ca-pub-7637695321442015' }],
+    ['meta', { name: 'google-adsense-account', content: 'ca-pub-2336226859954206' }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     [
       "link",
@@ -73,6 +74,7 @@ export default defineUserConfig({
     }
   }),
   theme,
+  plugins: [almanacPagesPlugin()],
 
   // Enable it with pwa
   shouldPrefetch: false,

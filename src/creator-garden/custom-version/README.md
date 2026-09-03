@@ -1,5 +1,5 @@
 ---
-title: 社区版本
+title: 社区Mod
 index: true
 order: 1
 dir:
@@ -10,7 +10,8 @@ comment: false
 ---
 
 > [!info]
-> 这里包含了 Gardendless 的社区版本，由社区成员制作和上传，Gardendless 开发组不对其内容负责。
+> 这里包含了 Gardendless 的社区Mod，由社区成员制作和上传，Gardendless 开发组不对其内容负责。
+> 多数 Mod 均采用 `gp-next` 工具加载。
 
 <script setup>
     import { onMounted } from 'vue';
@@ -20,11 +21,3 @@ comment: false
 </script>
 
 <Catalog />
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7637695321442015"
-     data-ad-slot="7113006248"
-     data-ad-format="auto"
-     data-full-width-responsive="true">
-</ins>

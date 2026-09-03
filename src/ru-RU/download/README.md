@@ -12,19 +12,12 @@ category:
 ---
 
 <script setup>
-import axios from 'axios';
-import { ref, onBeforeMount, onMounted } from 'vue'
+import { onMounted } from 'vue';
+import DownloadPanel from '@source/components/download-page/DownloadPanel.vue';
 
-const gameInfoData = ref(null);
-
-onBeforeMount(() => {
-  axios.get('/jsons/gameinfo.json').then(res => {
-    gameInfoData.value = res.data;
-  });
-})
 onMounted(() => {
   (window.adsbygoogle = window.adsbygoogle || []).push({});
-})
+});
 </script>
 
 > [!important]
@@ -42,83 +35,20 @@ onMounted(() => {
 >
 > Для получения подробной информации о вышеуказанном соглашении и заявлении, пожалуйста, ознакомьтесь с [этим](../instructions/)
 
-<span v-if="gameInfoData?.Version">Текущая последняя версия игры {{ gameInfoData.Version }}</span>
-
-<span v-if="gameInfoData?.Name">Название этой версии игры: {{ gameInfoData.Name }}</span>
-
-<span v-if="gameInfoData?.Hash?.MD5">MD5: <code>{{ gameInfoData?.Hash?.MD5 }}</code></span>
-
-<span v-if="gameInfoData?.Hash?.SHA256">SHA256: <code>{{ gameInfoData?.Hash?.SHA256 }}</code></span>
-
-## Журнал обновлений
-
-<template v-if="gameInfoData?.EnNewFeatures">
-
-- <li v-for="(item, index) in gameInfoData.EnNewFeatures" :key="index">{{ item }}</li>
-
-</template>
-
-<template v-else>Временно недоступно</template>
-
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-client="ca-pub-7637695321442015"
-     data-ad-slot="7113006248"
+     data-ad-client="ca-pub-2336226859954206"
+     data-ad-slot="1822530351"
      data-ad-format="auto"
      data-full-width-responsive="true">
 </ins>
 
-## ::brands:windows:: Платформа Windows
+<DownloadPanel locale="ru" />
 
-<template v-if="gameInfoData?.Download.Github">
+## Что сделать после скачивания
 
-### Github ::brands:github::
-
-Ссылка для скачивания: <a :href="gameInfoData.Download.Github" target="_blank">нажмите чтобы открыть</a>
-
-</template>
-
-<template v-if="gameInfoData?.Download.Storage">
-
-### Локальная загрузка ::cloud-arrow-down::
-
-Ссылка для скачивания: <a :href="gameInfoData.Download.Storage" target="_blank">нажмите чтобы открыть</a>
-
-</template>
-
-<template v-if="gameInfoData?.Download.Baidu">
-
-### Baidu Netdisk ::cloud::
-
-Ссылка для скачивания: <a :href="gameInfoData.Download.Baidu" target="_blank">нажмите чтобы открыть</a>
-
-</template>
-
-<template v-if="gameInfoData?.Download.Pan123">
-
-### 123 Pan ::cloud::
-
-Ссылка для скачивания: <a :href="gameInfoData.Download.Pan123" target="_blank">нажмите чтобы открыть</a>
-
-</template>
-
-<template v-if="gameInfoData?.Download.Quark">
-
-### Quark Netdisk ::cloud::
-
-Ссылка для скачивания: <a :href="gameInfoData.Download.Quark" target="_blank">нажмите чтобы открыть</a>
-
-</template>
-
-## ::brands:linux:: Linux/Другие платформы
-
-> [!info]
-> Для игры на Linux и других системах с архитектурой x86_64 (amd64) можно использовать образы Docker для локального развертывания веб-версии.
-
-### Docker Hub ::brands:docker::
-
-Адрес образа: <a href="https://hub.docker.com/r/gaozih/pvzge" target="_blank">нажмите для входа</a>
-
-## ::clock-rotate-left:: Исторические версии/Файлы ресурсов
-
-Все исторические версии и файлы ресурсов `JSON` можно загрузить с [GE Drive](https://drive.pvzge.com/)
+- Решение частых проблем: [FAQ](../guide/FAQ.md)
+- Системные требования и настройки: [Рекомендуемая конфигурация](../guide/requirement.md)
+- Поиск ID и CodeName растений/зомби: [Онлайн-альманах](../almanac/)
+- Руководство по патчам и локализации: [Гайд по MOD](../guide/mod/)
+- Официальные и пользовательские уровни: [Creator's Garden](../creator-garden/)

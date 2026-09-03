@@ -24,9 +24,17 @@ actions:
     link: ./download/
     type: primary
 
+  - text: Ежедневный уровень
+    icon: calendar-days
+    link: ./creator-garden/daily-level
+
   - text: Сообщество
     icon: comment
     link: ./contribution/
+
+  - text: Поддержать
+    icon: hand-holding-heart
+    link: ./contribution/Sponsor
 
 highlights:
   - bgImage: /assets/image/background.webp
@@ -35,6 +43,11 @@ highlights:
       opacity: 0.5
       filter: brightness(60%)
     features:
+      - title: Играть онлайн
+        icon: circle-play
+        details: Играйте в PvZ2 Gardendless прямо в браузере
+        link: https://play.pvzge.com
+
       - title: Онлайн-Альманах
         icon: book-atlas
         details: Найдите растения и зомби, а также их ID и CodeName
@@ -45,13 +58,23 @@ highlights:
         details: Редактируйте сохранения Gardendless
         link: ./useful-tool/save-editor
 
+      - title: Помощник расшифровки
+        icon: puzzle-piece
+        details: Записывайте результаты, исключайте ответы или тренируйтесь в браузере
+        link: ./useful-tool/plant-decoding
+
       - title: Руководство по моддингу
         icon: toolbox
         details: Изменяйте ресурсы игры используя GE Patcher
         link: ./guide/mod/
 
-      - title: Рекомендованная Конфигурация
-        icon: sliders
-        details: Просмотр рекомендуемой конфигурации для игры
-        link: ./guide/requirement
+      - title: Редактор уровней
+        icon: pen-to-square
+        details: Создавайте и экспортируйте пользовательские уровни Gardendless
+        link: ./useful-tool/level-editor
+
+      - title: Ежедневный уровень
+        icon: calendar-days
+        details: Просматривайте ежедневные уровни от сообщества Discord
+        link: ./creator-garden/daily-level
 ---

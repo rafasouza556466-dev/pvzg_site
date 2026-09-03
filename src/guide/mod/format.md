@@ -1,9 +1,9 @@
 ---
-title: 属性参考(latest)
+title: 类型与字段
 icon: file-invoice
 pageInfo: false
 index: true
-order: 2
+order: 4
 ---
 
 <script setup>
@@ -13,21 +13,28 @@ order: 2
     })
 </script>
 
-> [!warning]
-> 以下教程仅适用于`0.3.X`-`0.4.X`版本。
-
 > [!important]
 > 表格中，斜体的属性为不建议修改的字段，修改后可能会导致游戏崩溃或无法正常运行。
 
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-client="ca-pub-7637695321442015"
-     data-ad-slot="3900516289"
+     data-ad-client="ca-pub-2336226859954206"
+     data-ad-slot="1822530351"
      data-ad-format="auto"
      data-full-width-responsive="true">
 </ins>
 
-## 植物文件
+## 这页怎么用
+
+这页不是“从零开始写模组”的入门页，而是一份字段参考。更适合在下面这些场景里配合使用：
+
+- 你已经知道自己想改哪一类数据，但还不清楚字段名
+- 你已经从游戏里导出了某个 JSON，想对照字段作用来看
+- 你想确认某个常见 `Features` / `Props` 文件里通常有哪些内容
+
+如果你还没有拿到原始 JSON，可以先看 [导出游戏数据参考](./gp-next-json.md)。
+
+## 植物相关文件
 
 以下是植物 JSON 文件的格式，此处以爆裂葡萄为例。
 
@@ -51,7 +58,7 @@ PlantFeatures.json 文件包含植物的基本特性。
 | **ID**             | 74                                        | 植物在游戏内的唯一 id 值                                                              |
 | **NAME**           | `{ "en": "Grapeshot", "zh": "爆裂葡萄" }` | 多语言名称，`en`为英文名，`zh`为中文名                                                |
 | _\_CARDSPRITENAME_ | "grapeshot"                               | 卡牌图标资源名称(对应游戏资源文件)                                                    |
-| _CODENAME_         | "grapeshot"                               | 植物的唯一标识符(关键字段，用于 GE Patcher 合并)                                      |
+| _CODENAME_         | "grapeshot"                               | 植物的唯一标识符(关键字段，用于 GP-Next 匹配与合并)                                  |
 | _TYPE_             | `["plant", "lastStandDisallowed"]`        | 植物类型:<br>- `plant`:普通植物<br>- `lastStandDisallowed`:不可在"最终防线"模式中使用 |
 | **OBTAINWORLD**    | "market"                                  | 背景图片所在的世界                                                                    |
 | **ZENGARDEN**      | `{ "PlantPlace": "dirt" }`                | 禅境花园种植位置:<br>- `dirt`:普通土地                                                |
@@ -101,9 +108,9 @@ PlantProps.json 文件包含植物的数值属性。
 | **Family**                    | "Explosive" | 所属家族(可能影响家族增益效果)     |
 | **ImmuneToIceblock**          | true        | 免疫冰冻效果(如冰鼬僵尸的冰冻攻击) |
 
-## 商店文件
+## 商店相关文件
 
-`StoreCommodityFeatures.json` 文件包含商店的商品信息，有`Plants`、`Upgrade`、`Gem` 和 `Coin` 四个数组，表示不同类型的商品信息。
+`StoreCommodityFeatures.json` 文件包含商店的商品信息，有`Plants`、`Upgrade`、`Gem`、`Coin` 和 `Zen` 五个数组，表示不同类型的商品信息。
 
 ### Plants
 
@@ -187,6 +194,19 @@ PlantProps.json 文件包含植物的数值属性。
 | ------------------------ | ----------------------- |
 | _CommodityType_          | 固定值"coin"            |
 | CommodityCount           | 获得的金币数量          |
+| **CurrencyType**         | 货币类型("gem"或"coin") |
+| CurrencyRequired         | 需要支付的货币数量      |
+| _StackLevel_             | 商品包等级              |
+| **CommodityDisplayName** | 商品显示名称(多语言)    |
+
+### Zen
+
+`Zen` 数组包含禅境花园商品的信息，结构与 `Gem`/`Coin` 相同。
+
+| 字段                     | 说明                    |
+| ------------------------ | ----------------------- |
+| _CommodityType_          | 固定值"zen"             |
+| CommodityCount           | 获得的禅境花园资源数量  |
 | **CurrencyType**         | 货币类型("gem"或"coin") |
 | CurrencyRequired         | 需要支付的货币数量      |
 | _StackLevel_             | 商品包等级              |

@@ -28,10 +28,16 @@ next: false
 >
 > You can bind multiple functions to the same key, but please note that some functions may conflict or not work properly.
 
+## Related Tools and Guides
+
+- Edit save and progression data: [Save Editor](./save-editor.md)
+- Check plant and zombie IDs: [Online Almanac](../almanac/)
+- Learn datapacks and patching: [MOD Guide](../guide/mod/)
+
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-client="ca-pub-7637695321442015"
-     data-ad-slot="7113006248"
+     data-ad-client="ca-pub-2336226859954206"
+     data-ad-slot="1822530351"
      data-ad-format="auto"
      data-full-width-responsive="true">
 </ins>

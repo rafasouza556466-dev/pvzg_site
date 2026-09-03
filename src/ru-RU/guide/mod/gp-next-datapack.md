@@ -1,0 +1,186 @@
+---
+title: Datapacks
+icon: box-archive
+pageInfo: false
+index: true
+order: 4
+---
+
+# Datapacks и `pack.json`
+
+Если вы хотите, чтобы ваши изменения выглядели и работали как полноценный мод, а не как набор отдельных JSON-файлов, рекомендуемый способ - использовать datapack.
+
+## Минимальная структура
+
+```text
+MyFirstMod/
+├── pack.json
+└── jsons/
+    ├── features/
+    ├── lang/
+    ├── objects/
+    ├── levels/
+    └── worldmap/
+```
+
+Здесь `pack.json` обязателен.
+
+## Шаблон `pack.json`
+
+```json
+{
+  "uuid": "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",
+  "name": "Мой мод",
+  "version": "1.0.0",
+  "priority": 100,
+  "description": "Описание мода",
+  "author": "Ваше имя",
+  "packFormatVersion": 1,
+  "gameVersion": "0.7.1",
+  "gpNextVersion": ">=1.0.0"
+}
+```
+
+## Описание полей
+
+### `uuid`
+
+Это уникальный идентификатор.
+
+Он важен, потому что GP-Next использует его, чтобы помнить:
+
+- включен ли пакет
+- где пакет находится в порядке загрузки
+
+Сгенерировать его можно прямо на странице **Guide** в игре.
+
+### `name`
+
+Имя, которое показывается в Patcher.
+
+### `version`
+
+Версия вашего мода.
+
+### `priority`
+
+Приоритет загрузки по умолчанию. Меньшие значения загружаются раньше.
+
+### `description`
+
+Короткое описание мода.
+
+### `author`
+
+Имя автора.
+
+### `packFormatVersion`
+
+Пока достаточно указать `1`.
+
+### `gameVersion`
+
+Версия игры, для которой предназначен мод.
+
+### `gpNextVersion`
+
+Минимальная версия GP-Next, требуемая вашим модом.
+
+### `requiredGpNextFeatures`
+
+Необязательный массив. Если datapack зависит от экспериментальных функций GP-Next или runtime-расширений, объявите их здесь:
+
+```json
+{
+  "requiredGpNextFeatures": [
+    "experimental.worldMapJson",
+    "runtime.dynamicPlantRegistry"
+  ]
+}
+```
+
+Когда datapack включен, но нужная функция выключена, GP-Next показывает предупреждение в списке пакетов Patcher. Он не включает эти функции автоматически; игроку нужно включить их в **Experimental** или **Settings**, а затем перезагрузить патчи.
+
+Сейчас поддерживаются такие ID:
+
+| ID | Переключатель |
+| --- | --- |
+| `experimental.worldMapJson` | Experimental -> worldmap-json |
+| `experimental.plantLevelSystem` | Experimental -> plant-level-system |
+| `experimental.jsModding` | Experimental -> JS Modding (в текущей сборке всё ещё принудительно выключен) |
+| `runtime.dynamicPlantRegistry` | Settings -> Runtime Extensions -> Dynamic Plant Registry |
+| `runtime.shopExtensions` | Settings -> Runtime Extensions -> Shop Extensions |
+| `runtime.scrollSensitivity` | Settings -> Scroll Settings -> Scroll Optimization |
+
+## Миниатюра
+
+Рядом с `pack.json` можно положить файлы:
+
+- `thumbnail.png`
+- `thumbnail.ico`
+
+Требования:
+
+- квадратное изображение
+- меньше `128x128`
+
+Тогда Patcher покажет его как обложку пакета.
+
+## Поддержка папок и ZIP
+
+`packs/` поддерживает:
+
+- папки
+- файлы `.zip`
+
+## Базовый порядок работы
+
+1. Создайте новую папку внутри `packs/`
+2. Напишите `pack.json`
+3. Создайте `jsons/` и его подпапки
+4. Положите туда свои JSON-патчи
+5. Вернитесь в игру и нажмите **Save & Reload**
+
+## Для чего нужен `worldmap/`
+
+Если вы хотите менять runtime-граф карты мира, а не обычные сырые данные `WorldmapFeatures`, вам также понадобится:
+
+```text
+jsons/worldmap/gpn-worldmap.json5
+```
+
+Сейчас эта возможность всё ещё относится к **Experimental** внутри GP-Next, поэтому сначала её нужно включить на соответствующей странице.  
+Формат описан в [Карте](./gp-next-worldmap.md).
+
+## Публикация
+
+Самый распространенный способ поделиться datapack-пакетом - ZIP-архив.
+
+ZIP должен выглядеть так:
+
+```text
+MyFirstMod.zip
+├── pack.json
+└── jsons/
+```
+
+а не так:
+
+```text
+MyFirstMod.zip
+└── MyFirstMod/
+    ├── pack.json
+    └── jsons/
+```
+
+## На что обратить внимание в `pack.json`
+
+- после создания `uuid` не меняйте его без необходимости
+- `name` видит игрок, поэтому название должно быть понятным
+- `description` должно объяснять, что меняет пакет
+- обновляйте `version`, когда публикуете важные изменения
+
+## Дальше
+
+- [Языковые пакеты и `lang.json`](./gp-next-language.md)
+- [Data и Trainer](./gp-next-tools.md)
