@@ -757,6 +757,54 @@
 		{
 			"objclass": "PlantProperties",
 			"aliases": [
+				"stickybombrice"
+			],
+			"objdata": {
+				"CabbageType": "stickybomb",
+				"CabbageTypePlantfood": "stickybomb_pf",
+				"Cooldown": 10,
+				"CooldownFrom": 1,
+				"SunCost": 225,
+				"BeghouledCost": 2000,
+				"Toughness": 300,
+				"Family": "Lobber",
+				"ThrowInterval": {
+					"Min": 1.75,
+					"Max": 2
+				},
+				"MintBoostedProps": {
+					"ResistanceMult": 1,
+					"SpeedMult": 2,
+					"Plantfood": false
+				}
+			}
+		},
+		{
+			"objclass": "PlantProperties",
+			"aliases": [
+				"turkeypult"
+			],
+			"objdata": {
+				"CabbageType": "turkey",
+				"CabbageTypePlantfood": "turkey_big",
+				"ThrowInterval": 2.85,
+				"ThrowIntervalAdditional": 0.15,
+				"Cooldown": 5,
+				"CooldownFrom": 1,
+				"SunCost": 150,
+				"BeghouledCost": 1000,
+				"Toughness": 300,
+				"Family": "Magic",
+				"MintBoostedProps": {
+					"ResistanceMult": 1,
+					"SpeedMult": 2,
+					"Plantfood": false
+				}
+			}
+		},
+		{
+			"objclass": "PlantProperties",
+			"aliases": [
 				"cabbagepult"
 			],
 			"objdata": {
@@ -5377,6 +5425,53 @@
 				"BeghouledCost": 2000,
 				"Toughness": 300,
 				"Family": "Poison",
+				"ShootInterval": 2.85,
+				"ShootIntervalAdditional": 0.15,
+				"MintBoostedProps": {
+					"ResistanceMult": 1,
+					"SpeedMult": 2,
+					"Plantfood": false
+				}
+			}
+		},
+		{
+			"objclass": "PlantProperties",
+			"aliases": [
+				"lotorpedo"
+			],
+			"objdata": {
+				"CabbageType": "lotus",
+				"CabbageTypeInWater": "lotus_torpedo",
+				"CabbageTypePlantfood": "lotus_torpedo_pf",
+				"Cooldown": 5,
+				"CooldownFrom": 1,
+				"SunCost": 325,
+				"BeghouledCost": 3000,
+				"Toughness": 300,
+				"Family": "Lobber",
+				"ShootInterval": 2.85,
+				"ShootIntervalAdditional": 0.15,
+				"MintBoostedProps": {
+					"ResistanceMult": 1,
+					"SpeedMult": 2,
+					"Plantfood": false
+				}
+			}
+		},
+		{
+			"objclass": "PlantProperties",
+			"aliases": [
+				"blastberry"
+			],
+			"objdata": {
+				"CabbageType": "blastberry",
+				"CabbageTypePlantfood": "blastberry_pf",
+				"Cooldown": 10,
+				"CooldownFrom": 0.6,
+				"SunCost": 175,
+				"BeghouledCost": 2000,
+				"Toughness": 300,
+				"Family": "Lobber",
 				"ShootInterval": 2.85,
 				"ShootIntervalAdditional": 0.15,
 				"MintBoostedProps": {

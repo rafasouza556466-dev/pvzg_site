@@ -5,6 +5,122 @@
 		{
 			"objclass": "NarrativeProperties",
 			"aliases": [
+				"SKYCITY_OUTRO_ZOMBOSS"
+			],
+			"objdata": {
+				"Flow": [
+					{
+						"Character": "crazydave",
+						"Action": "NPC_ENTER"
+					},
+					{
+						"Character": "winnie",
+						"Action": "NPC_ENTER"
+					},
+					{
+						"Character": "winnie",
+						"Action": "SAY",
+						"Lines": {
+							"en": "We've finally made it through those days of walking on thin ice, User Dave!",
+							"zh": "我们终于熬过了这段如履薄冰的日子，用户戴夫！"
+						}
+					},
+					{
+						"Character": "winnie",
+						"Action": "SAY",
+						"Lines": {
+							"en": "It's time to head to a safer timeline.",
+							"zh": "是时候去一个更安全的时间线了。"
+						}
+					},
+					{
+						"Character": "crazydave",
+						"Action": "EXCITED",
+						"Lines": {
+							"en": "True. The thin air up here is way too unfriendly for a fana-TACO like me!",
+							"zh": "也是，天上稀薄的空气对我这种玉米卷狂热粉太不友好了！"
+						}
+					},
+					{
+						"Character": "crazydave",
+						"Action": "NPC_EXIT"
+					},
+					{
+						"Character": "winnie",
+						"Action": "NPC_EXIT"
+					},
+					{
+						"Character": "zombossicon",
+						"Action": "NPC_ENTER"
+					},
+					{
+						"Character": "zombossicon",
+						"Action": "SAY",
+						"Lines": {
+							"en": "Bah! You leave me no choice but to enact... Project Paradox!",
+							"zh": "哼！你这是在逼我启动……悖论计划！"
+						}
+					},
+					{
+						"Character": "zombossicon",
+						"Action": "SAY",
+						"Lines": {
+							"en": "I will perceive you soon, fools!",
+							"zh": "我们很快就会再相见的，蠢货们！"
+						}
+					}
+				]
+			}
+		},
+		{
+			"objclass": "NarrativeProperties",
+			"aliases": [
+				"SKYCITY_INTRO_ZOMBOSS"
+			],
+			"objdata": {
+				"Flow": [
+					{
+						"Character": "zombossicon",
+						"Action": "NPC_ENTER"
+					},
+					{
+						"Character": "zombossicon",
+						"Action": "SAY",
+						"Lines": {
+							"en": "Since you're holding such obsession with tacos, ...",
+							"zh": "既然你都已经对玉米卷执着到这种程度了，……"
+						}
+					},
+					{
+						"Character": "zombossicon",
+						"Action": "SAY",
+						"Lines": {
+							"en": "... it seems I'll have to correct your absurd delusions with harsher measures!",
+							"zh": "……看来我必须用更强硬的手段去纠正你荒谬的想法！"
+						}
+					},
+					{
+						"Character": "zombossicon",
+						"Action": "NPC_EXIT"
+					},
+					{
+						"Character": "crazydave",
+						"Action": "NPC_ENTER"
+					},
+					{
+						"Character": "crazydave",
+						"Action": "SAY",
+						"Lines": {
+							"en": "I think I smell an awful stench of gunpowder smoke...",
+							"zh": "我好像嗅到了难闻的硝烟味……"
+						}
+					}
+				]
+			}
+		},
+		{
+			"objclass": "NarrativeProperties",
+			"aliases": [
 				"FIRE_H"
 			],
 			"objdata": {
@@ -203,7 +319,7 @@
 						"Character": "winnie",
 						"Action": "TRIED",
 						"Lines": {
-							"en": "Those arn not ice sculptures, but frozen zombies.",
+							"en": "Those are not ice sculptures, but frozen zombies.",
 							"zh": "那不是冰雕，是冻住的僵尸。"
 						}
 					},
@@ -3227,7 +3343,7 @@
 						"Character": "winnie",
 						"Action": "SAY",
 						"Lines": {
-							"en": "...and forming attacks towards us, even fiecer than any other timelines.",
+							"en": "...and forming attacks towards us, even fiercer than any other timelines.",
 							"zh": "……并组建起比任何时间线都更猛烈的攻势来进攻我们。"
 						}
 					},
@@ -11095,16 +11211,32 @@
 						"Character": "zombossicon",
 						"Action": "SAY",
 						"Lines": {
-							"en": "Bah! You leave me no choice but to enact... Project Paradox!",
-							"zh": "哼！你这是在逼我启动……悖论计划！"
+							"en": "Haha! My trip here was never about taking you down!",
+							"zh": "哈哈！来这里一趟根本不是为了打倒你们！"
 						}
 					},
 					{
 						"Character": "zombossicon",
 						"Action": "SAY",
 						"Lines": {
-							"en": "I will perceive you soon, fools!",
-							"zh": "我们很快就会再相见的，蠢货们！"
+							"en": "...Though it would be way too easy to make that come true!",
+							"zh": "……尽管打倒你们再轻松不过了！"
+						}
+					},
+					{
+						"Character": "zombossicon",
+						"Action": "SAY",
+						"Lines": {
+							"en": "I've acquired an endless supply of oil resources!",
+							"zh": "我已经获得了无穷无尽的石油资源！"
+						}
+					},
+					{
+						"Character": "zombossicon",
+						"Action": "SAY",
+						"Lines": {
+							"en": "Soon we'll fill the entire sky with gunpowder smoke!",
+							"zh": "我们很快就能用硝烟填满整个天空！"
 						}
 					}
 				]

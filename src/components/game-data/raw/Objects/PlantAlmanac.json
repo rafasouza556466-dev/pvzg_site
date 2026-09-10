@@ -3,10 +3,10 @@
 	"version": 1,
 	"objects": [
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"inferno"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -43,10 +43,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"zoybeanpod"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -83,10 +83,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"icebloom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -144,10 +144,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"goldbloom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -195,10 +195,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"twinsunflower"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -252,10 +252,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"sunshroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -298,10 +298,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"lilypad"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"DisplayOffset": {
 					"x": 0,
@@ -345,10 +345,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"shootingstarfruit"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -395,10 +395,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"starfruit"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -445,10 +445,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"pinkstarfruit"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -506,10 +506,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"homingthistle"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -556,10 +556,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"xshot"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -606,10 +606,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"primalpeashooter"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -667,10 +667,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"slingpea"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -717,10 +717,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"darkmatterdragonfruit"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -798,10 +798,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"asparagus"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -859,10 +859,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"threepeater"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -920,10 +920,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"firepeashooter"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -991,10 +991,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"floawerPot"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1048,10 +1048,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"pvine"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1069,11 +1069,11 @@
 					},
 					{
 						"TYPE": "DAMAGE",
+						"VALUE": 1.5,
 						"NAME": {
 							"en": "Damage Multiplier",
 							"zh": "伤害增倍"
-						},
-						"VALUE": 1.5
+						}
 					},
 					{
 						"TYPE": "FAMILY"
@@ -1110,10 +1110,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"pumpkin"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1156,10 +1156,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"gravebuster"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1216,10 +1216,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"fumeshroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1266,10 +1266,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"scaredyshroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1327,10 +1327,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"megagatling"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1408,10 +1408,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"repeater"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1469,10 +1469,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"bonkchoy"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1530,10 +1530,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"wasabiwhip"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1591,10 +1591,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"iceburg"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1655,10 +1655,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"bloomerang"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1705,10 +1705,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"bambooshoot"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1755,10 +1755,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"cabbagepult"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1812,10 +1812,145 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
+			"aliases": [
+				"stickybombrice"
+			],
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "TOUGHNESS"
+					},
+					{
+						"TYPE": "DAMAGE",
+						"VALUE": 40
+					},
+					{
+						"TYPE": "RANGE",
+						"SORT": {
+							"en": "Lobbed",
+							"zh": "抛物线"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Stickybomb Rice lobs sticky rice bombs with timers at zombies.",
+					"zh": "糯米投弹手向僵尸投掷糯米定时炸弹。"
+				},
+				"Special": [
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "sticky rice sticks zombies to the ground",
+							"zh": "糯米把僵尸固定在原地"
+						}
+					},
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "exploding sticky bombs trigger other sticky bombs",
+							"zh": "爆炸的糯米炸弹会引爆其他的糯米炸弹"
+						}
+					}
+				],
+				"Chat": {
+					"en": "Stickybomb Rice has extreme confidence in bombs, rice, and the abstract concept of stickiness. She's published scholarly articles about all three.",
+					"zh": "糯米投弹手在炸弹和糯米方面很有自信，以及对黏性的认识，并发表了三篇论文讨论了以上三个概念。"
+				},
+				"BriefIntroduction": {
+					"en": "Lobs sticky bombs",
+					"zh": "扔出黏性炸弹"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"objclass": "PlantAlmanacProperties",
+			"aliases": [
+				"turkeypult"
+			],
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "TOUGHNESS"
+					},
+					{
+						"TYPE": "DAMAGE",
+						"SORT": {
+							"en": "65 Per Second",
+							"zh": "65 每秒"
+						}
+					},
+					{
+						"TYPE": "RANGE",
+						"SORT": {
+							"en": "Lobbed",
+							"zh": "抛物线"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Turkey-pults lob tofu turkeys to the enemies.",
+					"zh": "火鸡投手朝敌人扔出豆腐火鸡。"
+				},
+				"Special": [
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "tofu turkeys damage zombies and then charge down the lane to damage even more zombies",
+							"zh": "豆腐火鸡会啃咬僵尸并向前冲，之后甚至能伤害到更多的僵尸"
+						}
+					}
+				],
+				"Chat": {
+					"en": "Turkey-pult's turkeys are so delicious, you'd never know they were actually made of tofu! Almost never. You might know. Okay, fine, cards on the table: there is absolutely no way you could ever mistake these turkeys for the real thing.",
+					"zh": "火鸡投手的火鸡非常美味，你甚至不会尝出它们是豆腐做的！永远都尝不出。也许能看出。嗯，好吧，摊牌了，你永远不会把这些火鸡和真货弄混的。"
+				},
+				"BriefIntroduction": {
+					"en": "Lobs tofu turkeys",
+					"zh": "扔出豆腐火鸡"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"bloominghearts"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1862,10 +1997,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"shrinkingviolet"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -1936,10 +2071,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"solarsage"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2003,10 +2138,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"lychee"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2060,10 +2195,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"atombomb"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2159,10 +2294,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"potatomine"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2241,10 +2376,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"peashooter"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2291,10 +2426,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"poisonpeashooter"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2348,10 +2483,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"snappea"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2398,10 +2533,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"shadowpeashooter"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2469,10 +2604,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"seashooter"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2530,10 +2665,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"sunflower"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2576,10 +2711,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"shinevine"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2643,10 +2778,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"primalsunflower"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2689,10 +2824,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"wallnut"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2735,10 +2870,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"mirrornut"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2813,10 +2948,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"pineapple"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2870,10 +3005,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"murkadamia"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2927,10 +3062,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"dragonbruit"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -2981,10 +3116,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"moonflower"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3038,10 +3173,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"grimrose"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3096,10 +3231,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"nightshade"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3157,10 +3292,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"dusklobber"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3225,10 +3360,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"snowpea"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3286,10 +3421,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"lightningreed"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3343,10 +3478,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"witchhazel"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3393,10 +3528,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"anthurium"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3461,10 +3596,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"kernelpult"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3539,10 +3674,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"snowdrop"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3607,10 +3742,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"meteorflower"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3668,10 +3803,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"springbean"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3685,11 +3820,11 @@
 					},
 					{
 						"TYPE": "DAMAGE",
+						"VALUE": 10,
 						"NAME": {
 							"en": "RECOVER TIME",
 							"zh": "恢复时间"
-						},
-						"VALUE": 10
+						}
 					},
 					{
 						"TYPE": "SPECIAL",
@@ -3750,10 +3885,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"umbrellaleaf"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3824,10 +3959,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"melonpult"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3892,10 +4027,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"cantaloupe"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -3970,10 +4105,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"wintermelon"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4045,10 +4180,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"blover"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4109,10 +4244,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"spikeweed"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4180,10 +4315,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"iceweed"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4251,10 +4386,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"spikerock"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4322,10 +4457,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"chomper"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4379,10 +4514,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"glaciershroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4475,10 +4610,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"primalwallnut"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4532,10 +4667,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"buttercup"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4593,10 +4728,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"banana"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4674,10 +4809,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"bamboozle"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4738,10 +4873,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"gumnut"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4798,10 +4933,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"aloe"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4837,10 +4972,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"hollyknight"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4901,10 +5036,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"missiletoe"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -4989,10 +5124,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"cherry_bomb"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5047,10 +5182,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"loquat"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5105,10 +5240,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"noctarine"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5183,10 +5318,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"reinforcemint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5230,10 +5365,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"enlightenmint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5277,10 +5412,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"wintermint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5324,10 +5459,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"spearmint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5371,10 +5506,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"armamint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5418,10 +5553,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"containmint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5465,10 +5600,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"filamint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5512,10 +5647,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"appeasemint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5559,10 +5694,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"bombardmint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5606,10 +5741,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"enforcemint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5653,10 +5788,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"concealmint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5700,10 +5835,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"ailmint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5747,10 +5882,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"enchantmint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5794,10 +5929,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"peppermint"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5841,10 +5976,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"doomshroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5899,10 +6034,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"cranjelly"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -5953,10 +6088,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"dragonbabybruit"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6014,10 +6149,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"torchwood"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6031,11 +6166,11 @@
 					},
 					{
 						"TYPE": "DAMAGE",
+						"VALUE": 450,
 						"NAME": {
 							"en": "BURNING DAMAGE",
 							"zh": "燃烧伤害"
-						},
-						"VALUE": 450
+						}
 					},
 					{
 						"TYPE": "DAMAGE",
@@ -6106,10 +6241,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"jalapeno"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6164,10 +6299,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"chillypepper"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6222,10 +6357,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"perfumeshroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6283,10 +6418,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"puffshroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6351,10 +6486,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"gloomvine"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6412,10 +6547,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"vamporcini"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6469,10 +6604,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"primalpotatomine"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6544,10 +6679,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"cactus"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6612,10 +6747,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"powerlily"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6666,10 +6801,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"firegourd"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6737,10 +6872,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"coconutcannon"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6808,10 +6943,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"peapod"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6869,10 +7004,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"snapdragon"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6930,10 +7065,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"coldsnapdragon"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -6998,10 +7133,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"gatling"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7059,10 +7194,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"splitpea"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7120,10 +7255,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"chilibean"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7205,10 +7340,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"tallnut"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7262,10 +7397,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"hurrikale"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7343,10 +7478,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"stallia"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7421,10 +7556,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"electricpeashooter"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7471,10 +7606,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"squash"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7525,10 +7660,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"gloomshroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7582,10 +7717,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"magnifyinggrass"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7636,10 +7771,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"celerystalker"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7686,10 +7821,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"sapfling"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7753,10 +7888,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"parsnip"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7814,10 +7949,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"explodeonut"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7871,10 +8006,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"grapeshot"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -7929,10 +8064,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"plantern"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8006,10 +8141,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"bulbkekengi"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8033,7 +8168,7 @@
 					}
 				],
 				"Introduction": {
-					"en": "Bulbkekengus remove fogs in a medium range.",
+					"en": "Glowkengus remove fogs in a medium range.",
 					"zh": "灯笼草驱散中等范围内的迷雾。"
 				},
 				"Special": [
@@ -8049,7 +8184,7 @@
 					}
 				],
 				"Chat": {
-					"en": "Bulbkekengi soon became inseparable friends with Torchwood and Snapdragon, dubbing themselves the \"Musketeers of Flame\". However, the Hawaiian-themed lounge seems hesitant to serve the trio—the owner doesn't want to see any more scorched tables.",
+					"en": "Glowkengi soon became inseparable friends with Torchwood and Snapdragon, dubbing themselves the \"Musketeers of Flame\". However, the Hawaiian-themed lounge seems hesitant to serve the trio—the owner doesn't want to see any more scorched tables.",
 					"zh": "灯笼草很快就与火炬树桩和火龙草成了形影不离的好朋友，他们自称为“火焰三剑客”。不过夏威夷风情酒廊似乎不太敢招待他们三个，老板可不愿意再看见烧焦的酒桌。"
 				},
 				"BriefIntroduction": {
@@ -8063,10 +8198,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"peach"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8120,10 +8255,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"jackolantern"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8177,10 +8312,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"pyrevine"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8223,10 +8358,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"dandelion"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8294,10 +8429,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"chardguard"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8340,10 +8475,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"hypnoshroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8407,10 +8542,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"electriccurrant"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8424,11 +8559,11 @@
 					},
 					{
 						"TYPE": "DAMAGE",
+						"VALUE": 48,
 						"NAME": {
 							"en": "DAMAGE PER SEC",
 							"zh": "每秒伤害"
-						},
-						"VALUE": 48
+						}
 					},
 					{
 						"TYPE": "RANGE",
@@ -8482,10 +8617,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"escaperoot"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8547,10 +8682,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"imitater"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8591,10 +8726,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"shadowshroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8662,10 +8797,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"magnetshroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8726,10 +8861,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"turnip"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8783,10 +8918,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"empea"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8847,10 +8982,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"citron"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8894,10 +9029,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"laser_bean"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -8955,10 +9090,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"solartomato"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9020,10 +9155,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"powerplant_alpha"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9078,10 +9213,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"powerplant_beta"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9136,10 +9271,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"powerplant_gamma"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9194,10 +9329,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"powerplant_delta"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9252,10 +9387,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"powerplant_epsilon"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9310,10 +9445,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"holonut"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9367,10 +9502,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"powerplant"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9425,10 +9560,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"marigold"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9482,10 +9617,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"marigold_red"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9528,10 +9663,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"marigold_orange"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9574,10 +9709,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"marigold_yellow"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9620,10 +9755,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"marigold_green"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9666,10 +9801,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"marigold_blue"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9712,10 +9847,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"marigold_pink"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9758,10 +9893,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"marigold_purple"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9804,10 +9939,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"applemortar"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9861,10 +9996,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"redstinger"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9914,10 +10049,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"skyshooter"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -9975,10 +10110,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"sunbean"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10018,10 +10153,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"moonbean"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10062,10 +10197,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"peanut"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10112,10 +10247,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"zombiepotion_speed"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [],
 				"Introduction": {
@@ -10138,10 +10273,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"zombiepotion_toughness"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [],
 				"Introduction": {
@@ -10164,10 +10299,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"zombiepotion_invisibility"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [],
 				"Introduction": {
@@ -10190,10 +10325,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"tanglekelp"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10255,10 +10390,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"bowlingbulb"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10316,10 +10451,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"guacodile"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10387,10 +10522,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"empty"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [],
 				"Introduction": {
@@ -10413,10 +10548,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"tool_projectile_bowling_tallnut"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [],
 				"Introduction": {
@@ -10439,10 +10574,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"ghostpepper"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10489,10 +10624,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"sweetpotato"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10535,10 +10670,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"pepperpult"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10606,10 +10741,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"hotdate"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10677,10 +10812,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"hotpotato"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10741,10 +10876,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"stunion"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10805,10 +10940,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"goldleaf"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10849,10 +10984,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"akee"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10906,10 +11041,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"endurian"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -10952,10 +11087,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"toadstool"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -11009,10 +11144,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"lavaguava"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -11087,10 +11222,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"phatbeet"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -11137,10 +11272,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"strawburst"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -11205,10 +11340,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"thymewarp"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -11272,10 +11407,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"phatbeet_rhythm"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [],
 				"Introduction": {
@@ -11298,10 +11433,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"seashroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -11376,10 +11511,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"garlic"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -11429,10 +11564,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"peacommando"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -11490,10 +11625,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"caulipower"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -11547,10 +11682,10 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"electricblueberry"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -11593,10 +11728,81 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
+			"aliases": [
+				"lotorpedo"
+			],
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "TOUGHNESS"
+					},
+					{
+						"TYPE": "DAMAGE",
+						"VALUE": 120
+					},
+					{
+						"TYPE": "RANGE",
+						"SORT": {
+							"en": "Lobbed",
+							"zh": "抛物线"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Lotorpedoes supply stronger damages in water.",
+					"zh": "鱼雷莲蓬在水中比在陆地上拥有更强的战斗力。"
+				},
+				"Special": [
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "projectiles shot on land deal splash damages above water",
+							"zh": "陆地上发射的子弹会在水面上造成溅射伤害"
+						}
+					},
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "fires torpedos that knock back zombies in water",
+							"zh": "在水中发射能击退僵尸的鱼雷"
+						}
+					}
+				],
+				"Chat": {
+					"en": "Lotorpedo is a member of the Plant-Arma Club. To show off his interest, he specially shaped himself like a revolver. But as he was about to hang out, he noticed the news about the Monk Zombies were intruding on the telly. After a glance at those monks' \"haircut\", he suddenly felt like staying home…",
+					"zh": "鱼雷莲蓬是植物枪械爱好者俱乐部的成员，为了展现他的兴趣，他特意去做了一个左轮手枪的造型。出门前他无意中注意到电视里在播放武僧僵尸入侵的消息，看到那些武僧的头顶，他瞬间不想出门了……"
+				},
+				"BriefIntroduction": {
+					"en": "Fires torpedos in water, projectiles otherwise",
+					"zh": "在水中发射鱼雷，否则发射子弹"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"sporeshroom"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{
@@ -11643,10 +11849,60 @@
 			}
 		},
 		{
+			"objclass": "PlantAlmanacProperties",
+			"aliases": [
+				"blastberry"
+			],
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "SUNCOST"
+					},
+					{
+						"TYPE": "RECHARGE"
+					},
+					{
+						"TYPE": "TOUGHNESS"
+					},
+					{
+						"TYPE": "DAMAGE",
+						"VALUE": 15
+					},
+					{
+						"TYPE": "RANGE",
+						"SORT": {
+							"en": "Lobbed",
+							"zh": "抛物线"
+						}
+					},
+					{
+						"TYPE": "FAMILY"
+					}
+				],
+				"Introduction": {
+					"en": "Blastberry Vines can be planted on top of other plants to provide increased defense and an additional attack in the form of lobbed projectiles that break into explosive bomblets.",
+					"zh": "爆莓藤蔓可以被种在其他植物身上，同时发射在半空中爆裂的榴弹，并向前弹射。"
+				},
+				"Special": [],
+				"Chat": {
+					"en": "Blastberry Vine snickers to himself. He imagines lobbing bomblets. He's been reading up on it and he knows it's gonna make a big splash when it happens. \"Soon,\" he whispers.",
+					"zh": "爆莓藤蔓暗自窃笑，他想象着自己投掷榴弹的场景。他已经研究了一阵子，深知一旦出手必将一鸣惊人。“让子弹飞一会，”他低语道。"
+				},
+				"BriefIntroduction": {
+					"en": "Protects and lobs",
+					"zh": "提供保护并投掷榴弹"
+				},
+				"DisplayOffset": {
+					"x": 0,
+					"y": 0
+				}
+			}
+		},
+		{
+			"objclass": "PlantAlmanacProperties",
 			"aliases": [
 				"intensivecarrot"
 			],
-			"objclass": "PlantAlmanacProperties",
 			"objdata": {
 				"Elements": [
 					{

@@ -677,6 +677,74 @@
 			"RES": "Meteor"
 		},
 		{
+			"CODENAME": "stickybomb",
+			"RES": "StickyBomb0"
+		},
+		{
+			"CODENAME": "stickybomb1",
+			"RES": "StickyBomb1"
+		},
+		{
+			"CODENAME": "stickybomb2",
+			"RES": "StickyBomb2"
+		},
+		{
+			"CODENAME": "stickybomb_pf",
+			"RES": "StickyBombFood"
+		},
+		{
+			"CODENAME": "blastberry",
+			"RES": "BlastBerry0"
+		},
+		{
+			"CODENAME": "blastberry1",
+			"RES": "BlastBerry1"
+		},
+		{
+			"CODENAME": "blastberry2",
+			"RES": "BlastBerry2"
+		},
+		{
+			"CODENAME": "blastberry_pf",
+			"RES": "BlastBerryPF"
+		},
+		{
+			"CODENAME": "blastberry_small",
+			"RES": "BlastBerrySmall0"
+		},
+		{
+			"CODENAME": "blastberry_small1",
+			"RES": "BlastBerrySmall1"
+		},
+		{
+			"CODENAME": "blastberry_small2",
+			"RES": "BlastBerrySmall2"
+		},
+		{
+			"CODENAME": "blastberry_small_pf",
+			"RES": "BlastBerrySmallPF"
+		},
+		{
+			"CODENAME": "lotus",
+			"RES": "Lotorpedo0"
+		},
+		{
+			"CODENAME": "lotus1",
+			"RES": "Lotorpedo1"
+		},
+		{
+			"CODENAME": "lotus2",
+			"RES": "Lotorpedo2"
+		},
+		{
+			"CODENAME": "lotus_torpedo",
+			"RES": "LotorpedoTPD"
+		},
+		{
+			"CODENAME": "lotus_torpedo_pf",
+			"RES": "LotorpedoPFTPD"
+		},
+		{
 			"CODENAME": "pea_shadow",
 			"RES": "PeaShadow0"
 		},
@@ -809,6 +877,14 @@
 			"RES": "AnthuriumBoltBig"
 		},
 		{
+			"CODENAME": "turkey",
+			"RES": "Turkey"
+		},
+		{
+			"CODENAME": "turkey_big",
+			"RES": "TurkeyBig"
+		},
+		{
 			"CODENAME": "sea_pea",
 			"RES": "SeaPea0"
 		},
@@ -915,6 +991,10 @@
 		{
 			"CODENAME": "eighties_speaker_wave",
 			"RES": "EightiesSpeakerWave"
+		},
+		{
+			"CODENAME": "sky_zomboss_storm",
+			"RES": "SkyZombossStorm"
 		},
 		{
 			"CODENAME": "busketball",

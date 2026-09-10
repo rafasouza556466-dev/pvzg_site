@@ -44,6 +44,12 @@
       "source": "TilesFeatures"
     },
     {
+      "code": "potholepool",
+      "name": "Pothole Pool",
+      "category": "tile",
+      "source": "TilesFeatures"
+    },
+    {
       "code": "potholepuddle",
       "name": "Pothole Puddle",
       "category": "tile",

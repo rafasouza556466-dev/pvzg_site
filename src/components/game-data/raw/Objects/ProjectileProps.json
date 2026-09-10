@@ -5,6 +5,236 @@
 		{
 			"objclass": "ProjectileProperties",
 			"aliases": [
+				"blastberry"
+			],
+			"objdata": {
+				"SpeedYScale": 2,
+				"ShotCount": 5,
+				"ShotType": "blastberry_small",
+				"Damage": 100,
+				"ShotDistanceBetween": {
+					"Min": 0.8,
+					"Max": 1
+				},
+				"ShotFlyTime": {
+					"Min": 0.18,
+					"Max": 0.25
+				},
+				"Size": {
+					"w": 30,
+					"h": 30
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"blastberry1"
+			],
+			"objdata": {
+				"SpeedYScale": 2,
+				"ShotCount": 5,
+				"ShotType": "blastberry_small1",
+				"Damage": 300,
+				"ShotDistanceBetween": {
+					"Min": 0.8,
+					"Max": 1
+				},
+				"ShotFlyTime": {
+					"Min": 0.18,
+					"Max": 0.25
+				},
+				"Size": {
+					"w": 30,
+					"h": 30
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"blastberry2"
+			],
+			"objdata": {
+				"SpeedYScale": 2,
+				"ShotCount": 5,
+				"ShotType": "blastberry_small2",
+				"Damage": 500,
+				"ShotDistanceBetween": {
+					"Min": 0.8,
+					"Max": 1
+				},
+				"ShotFlyTime": {
+					"Min": 0.18,
+					"Max": 0.25
+				},
+				"Size": {
+					"w": 30,
+					"h": 30
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"blastberry_pf"
+			],
+			"objdata": {
+				"SpeedYScale": 2,
+				"ShotCount": 5,
+				"ShotType": "blastberry_small_pf",
+				"Damage": 1200,
+				"ShotDistanceBetween": {
+					"Min": 0.8,
+					"Max": 1
+				},
+				"ShotFlyTime": {
+					"Min": 0.18,
+					"Max": 0.25
+				},
+				"Size": {
+					"w": 30,
+					"h": 30
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"blastberry_pf_mint"
+			],
+			"objdata": {
+				"SpeedYScale": 2,
+				"ShotCount": 5,
+				"ShotType": "blastberry_small_pf_mint",
+				"Damage": 6000,
+				"ShotDistanceBetween": {
+					"Min": 0.8,
+					"Max": 1
+				},
+				"ShotFlyTime": {
+					"Min": 0.18,
+					"Max": 0.25
+				},
+				"Size": {
+					"w": 30,
+					"h": 30
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"blastberry_small"
+			],
+			"objdata": {
+				"Damage": 15,
+				"SplashDamage": [
+					{
+						"Damage": 15,
+						"Range": {
+							"w": 1,
+							"h": 1
+						}
+					}
+				],
+				"Size": {
+					"w": 15,
+					"h": 15
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"blastberry_small1"
+			],
+			"objdata": {
+				"Damage": 45,
+				"SplashDamage": [
+					{
+						"Damage": 45,
+						"Range": {
+							"w": 1,
+							"h": 1
+						}
+					}
+				],
+				"Size": {
+					"w": 15,
+					"h": 15
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"blastberry_small2"
+			],
+			"objdata": {
+				"Damage": 75,
+				"SplashDamage": [
+					{
+						"Damage": 75,
+						"Range": {
+							"w": 1,
+							"h": 1
+						}
+					}
+				],
+				"Size": {
+					"w": 15,
+					"h": 15
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"blastberry_small_pf"
+			],
+			"objdata": {
+				"Damage": 120,
+				"SplashDamage": [
+					{
+						"Damage": 120,
+						"Range": {
+							"w": 3,
+							"h": 1
+						}
+					}
+				],
+				"Size": {
+					"w": 15,
+					"h": 15
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"blastberry_small_pf_mint"
+			],
+			"objdata": {
+				"Damage": 600,
+				"SplashDamage": [
+					{
+						"Damage": 600,
+						"Range": {
+							"w": 1,
+							"h": 1
+						}
+					}
+				],
+				"Size": {
+					"w": 15,
+					"h": 15
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
 				"abbot_fan_storm"
 			],
 			"objdata": {
@@ -4997,6 +5227,129 @@
 		{
 			"objclass": "ProjectileProperties",
 			"aliases": [
+				"stickybomb"
+			],
+			"objdata": {
+				"Damage": 40,
+				"BombRiceLifespan": 1.25,
+				"BombRiceLevel": 1,
+				"BombRiceExplodeSize": {
+					"w": 2,
+					"h": 3
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"stickybomb1"
+			],
+			"objdata": {
+				"Damage": 120,
+				"BombRiceLifespan": 2,
+				"BombRiceLevel": 1,
+				"BombRiceExplodeSize": {
+					"w": 2,
+					"h": 3
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"stickybomb2"
+			],
+			"objdata": {
+				"Damage": 200,
+				"BombRiceLifespan": 2.75,
+				"BombRiceLevel": 1,
+				"BombRiceExplodeSize": {
+					"w": 2,
+					"h": 3
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"stickybomb_pf"
+			],
+			"objdata": {
+				"Damage": 40,
+				"BombRiceLifespan": 3,
+				"BombRiceLevel": 3,
+				"BombRiceExplodeSize": {
+					"w": 3,
+					"h": 3
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"stickybomb_pf_mint"
+			],
+			"objdata": {
+				"Damage": 200,
+				"BombRiceLifespan": 3,
+				"BombRiceLevel": 3,
+				"BombRiceExplodeSize": {
+					"w": 3,
+					"h": 3
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"turkey"
+			],
+			"objdata": {
+				"CannotBeReversedByJester": true,
+				"IgnoredBy3SectionStaff": true,
+				"ZombieTypeToSpawn": "turkeypult_turkey",
+				"Damage": 0
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"turkey_mint"
+			],
+			"objdata": {
+				"CannotBeReversedByJester": true,
+				"IgnoredBy3SectionStaff": true,
+				"ZombieTypeToSpawn": "turkeypult_turkey_mint",
+				"Damage": 0
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"turkey_big"
+			],
+			"objdata": {
+				"CannotBeReversedByJester": true,
+				"IgnoredBy3SectionStaff": true,
+				"ZombieTypeToSpawn": "turkeypult_big_turkey",
+				"Damage": 0
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"turkey_big_mint"
+			],
+			"objdata": {
+				"CannotBeReversedByJester": true,
+				"IgnoredBy3SectionStaff": true,
+				"ZombieTypeToSpawn": "turkeypult_big_turkey_mint",
+				"Damage": 0
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
 				"anthurium_bolt"
 			],
 			"objdata": {
@@ -5091,6 +5444,204 @@
 				"Size": {
 					"w": 25,
 					"h": 25
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"lotus_torpedo"
+			],
+			"objdata": {
+				"Damage": 120,
+				"KnockbackDistance": 1,
+				"SplashDamage": [
+					{
+						"StunDuration": 1,
+						"Range": {
+							"w": 3,
+							"h": 3
+						}
+					}
+				],
+				"SplashDamageOnWater": [
+					{
+						"Damage": 60,
+						"Range": {
+							"w": 3,
+							"h": 3
+						}
+					}
+				],
+				"Size": {
+					"w": 20,
+					"h": 20
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"lotus_torpedo_mint"
+			],
+			"objdata": {
+				"Damage": 600,
+				"KnockbackDistance": 2,
+				"SplashDamage": [
+					{
+						"StunDuration": 3,
+						"Range": {
+							"w": 3,
+							"h": 3
+						}
+					}
+				],
+				"SplashDamageOnWater": [
+					{
+						"Damage": 300,
+						"Range": {
+							"w": 3,
+							"h": 3
+						}
+					}
+				],
+				"Size": {
+					"w": 20,
+					"h": 20
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"lotus_torpedo_pf"
+			],
+			"objdata": {
+				"Damage": 1200,
+				"KnockbackDistance": 2,
+				"SplashDamage": [
+					{
+						"Damage": 200,
+						"KnockbackDistance": 2,
+						"StunDuration": 3,
+						"Range": {
+							"w": 3,
+							"h": 3
+						}
+					}
+				],
+				"SplashDamageOnWater": [
+					{
+						"Damage": 400,
+						"Range": {
+							"w": 3,
+							"h": 3
+						}
+					}
+				],
+				"Size": {
+					"w": 20,
+					"h": 20
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"lotus_torpedo_pf_mint"
+			],
+			"objdata": {
+				"Damage": 6000,
+				"KnockbackDistance": 4,
+				"SplashDamage": [
+					{
+						"Damage": 1000,
+						"KnockbackDistance": 4,
+						"StunDuration": 3,
+						"Range": {
+							"w": 3,
+							"h": 3
+						}
+					}
+				],
+				"SplashDamageOnWater": [
+					{
+						"Damage": 2000,
+						"Range": {
+							"w": 3,
+							"h": 3
+						}
+					}
+				],
+				"Size": {
+					"w": 20,
+					"h": 20
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"lotus"
+			],
+			"objdata": {
+				"Damage": 120,
+				"SplashDamageOnWater": [
+					{
+						"Damage": 60,
+						"Range": {
+							"w": 3,
+							"h": 3
+						}
+					}
+				],
+				"Size": {
+					"w": 20,
+					"h": 20
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"lotus1"
+			],
+			"objdata": {
+				"Damage": 360,
+				"SplashDamageOnWater": [
+					{
+						"Damage": 180,
+						"Range": {
+							"w": 3,
+							"h": 3
+						}
+					}
+				],
+				"Size": {
+					"w": 20,
+					"h": 20
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"lotus2"
+			],
+			"objdata": {
+				"Damage": 600,
+				"SplashDamageOnWater": [
+					{
+						"Damage": 300,
+						"Range": {
+							"w": 3,
+							"h": 3
+						}
+					}
+				],
+				"Size": {
+					"w": 20,
+					"h": 20
 				}
 			}
 		},
@@ -5698,6 +6249,23 @@
 				"DetectsEaterDetectDisabledPlants": true,
 				"Size": {
 					"w": 50,
+					"h": 50
+				}
+			}
+		},
+		{
+			"objclass": "ProjectileProperties",
+			"aliases": [
+				"sky_zomboss_storm"
+			],
+			"objdata": {
+				"CanBeKilledByLoquat": true,
+				"CanBeKilledByAnthurium": true,
+				"IgnoredBy3SectionStaff": true,
+				"CannotBeReversedByJester": true,
+				"DetectsEaterDetectDisabledPlants": true,
+				"Size": {
+					"w": 100,
 					"h": 50
 				}
 			}

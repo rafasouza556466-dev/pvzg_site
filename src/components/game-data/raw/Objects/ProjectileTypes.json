@@ -2089,6 +2089,112 @@
 		{
 			"objclass": "ProjectileType",
 			"aliases": [
+				"blastberry"
+			],
+			"objdata": {
+				"MintBoostedType": "blastberry2",
+				"ProjectileBasedOn": "blastberry",
+				"Props": "RTID(blastberry@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"blastberry1"
+			],
+			"objdata": {
+				"MintBoostedType": "blastberry2",
+				"ProjectileBasedOn": "blastberry1",
+				"Props": "RTID(blastberry1@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"blastberry2"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "blastberry2",
+				"Props": "RTID(blastberry2@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"blastberry_pf"
+			],
+			"objdata": {
+				"MintBoostedType": "blastberry_pf_mint",
+				"ProjectileBasedOn": "blastberry_pf",
+				"Props": "RTID(blastberry_pf@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"blastberry_pf_mint"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "blastberry_pf",
+				"Props": "RTID(blastberry_pf_mint@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"blastberry_small"
+			],
+			"objdata": {
+				"MintBoostedType": "blastberry_small2",
+				"ProjectileBasedOn": "blastberry_small",
+				"Props": "RTID(blastberry_small@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"blastberry_small1"
+			],
+			"objdata": {
+				"MintBoostedType": "blastberry_small2",
+				"ProjectileBasedOn": "blastberry_small1",
+				"Props": "RTID(blastberry_small1@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"blastberry_small2"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "blastberry_small2",
+				"Props": "RTID(blastberry_small2@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"blastberry_small_pf"
+			],
+			"objdata": {
+				"MintBoostedType": "blastberry_small_pf_mint",
+				"ProjectileBasedOn": "blastberry_small_pf",
+				"Props": "RTID(blastberry_small_pf@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"blastberry_small_pf_mint"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "blastberry_small_pf",
+				"Props": "RTID(blastberry_small_pf_mint@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
 				"cactus"
 			],
 			"objdata": {
@@ -2392,6 +2498,80 @@
 			"objdata": {
 				"ProjectileBasedOn": "pea_shadow2",
 				"Props": "RTID(pea_shadow2@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"lotus_torpedo"
+			],
+			"objdata": {
+				"MintBoostedType": "lotus_torpedo_mint",
+				"ProjectileBasedOn": "lotus_torpedo",
+				"Props": "RTID(lotus_torpedo@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"lotus_torpedo_mint"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "lotus_torpedo",
+				"Props": "RTID(lotus_torpedo_mint@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"lotus_torpedo_pf"
+			],
+			"objdata": {
+				"MintBoostedType": "lotus_torpedo_pf_mint",
+				"ProjectileBasedOn": "lotus_torpedo_pf",
+				"Props": "RTID(lotus_torpedo_pf@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"lotus_torpedo_pf_mint"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "lotus_torpedo_pf",
+				"Props": "RTID(lotus_torpedo_pf_mint@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"lotus"
+			],
+			"objdata": {
+				"MintBoostedType": "lotus2",
+				"ProjectileBasedOn": "lotus",
+				"Props": "RTID(lotus@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"lotus1"
+			],
+			"objdata": {
+				"MintBoostedType": "lotus2",
+				"ProjectileBasedOn": "lotus1",
+				"Props": "RTID(lotus1@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"lotus2"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "lotus2",
+				"Props": "RTID(lotus2@ProjectileProps)"
 			}
 		},
 		{
@@ -2840,6 +3020,101 @@
 		{
 			"objclass": "ProjectileType",
 			"aliases": [
+				"stickybomb"
+			],
+			"objdata": {
+				"MintBoostedType": "stickybomb2",
+				"ProjectileBasedOn": "stickybomb",
+				"Props": "RTID(stickybomb@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"stickybomb1"
+			],
+			"objdata": {
+				"MintBoostedType": "stickybomb2",
+				"ProjectileBasedOn": "stickybomb1",
+				"Props": "RTID(stickybomb1@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"stickybomb2"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "stickybomb2",
+				"Props": "RTID(stickybomb2@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"stickybomb_pf"
+			],
+			"objdata": {
+				"MintBoostedType": "stickybomb_pf_mint",
+				"ProjectileBasedOn": "stickybomb_pf",
+				"Props": "RTID(stickybomb_pf@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"stickybomb_pf_mint"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "stickybomb_pf",
+				"Props": "RTID(stickybomb_pf_mint@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"turkey"
+			],
+			"objdata": {
+				"MintBoostedType": "turkey_mint",
+				"ProjectileBasedOn": "turkey",
+				"Props": "RTID(turkey@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"turkey_mint"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "turkey",
+				"Props": "RTID(turkey_mint@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"turkey_big"
+			],
+			"objdata": {
+				"MintBoostedType": "turkey_big_mint",
+				"ProjectileBasedOn": "turkey_big",
+				"Props": "RTID(turkey_big@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"turkey_big_mint"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "turkey_big",
+				"Props": "RTID(turkey_big_mint@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
 				"sea_pea1"
 			],
 			"objdata": {
@@ -3126,6 +3401,16 @@
 			"objdata": {
 				"ProjectileBasedOn": "eighties_speaker_wave",
 				"Props": "RTID(eighties_speaker_wave@ProjectileProps)"
+			}
+		},
+		{
+			"objclass": "ProjectileType",
+			"aliases": [
+				"sky_zomboss_storm"
+			],
+			"objdata": {
+				"ProjectileBasedOn": "sky_zomboss_storm",
+				"Props": "RTID(sky_zomboss_storm@ProjectileProps)"
 			}
 		},
 		{

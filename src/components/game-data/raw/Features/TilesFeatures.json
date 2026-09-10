@@ -41,6 +41,11 @@
       "RES": "Endangered"
     },
     {
+      "CODENAME": "potholepool",
+      "PROPS": "RTID(potholepuddle@TileProps)",
+      "RES": "PotholePool"
+    },
+    {
       "CODENAME": "potholepuddle",
       "PROPS": "RTID(potholepuddle@TileProps)",
       "RES": "PotholePuddle"

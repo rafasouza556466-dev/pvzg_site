@@ -60,6 +60,16 @@
     "image": "/assets/image/objects/object_endangered.png"
   },
   {
+    "code": "potholepool",
+    "name": "Pothole Pool",
+    "category": "tile",
+    "exportClass": "InitialGridItemProperties",
+    "props": "RTID(potholepuddle@TileProps)",
+    "res": "PotholePool",
+    "source": "TilesFeatures",
+    "image": "/assets/image/objects/object_potholepool.png"
+  },
+  {
     "code": "potholepuddle",
     "name": "Pothole Puddle",
     "category": "tile",

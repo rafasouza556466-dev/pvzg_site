@@ -3,10 +3,10 @@
   "version": 1,
   "objects": [
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CommonHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -17,10 +17,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "YetiHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -31,10 +31,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "AllstarRunningAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -20,
@@ -45,10 +45,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "TileDefaultRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -59,10 +59,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "SliderTileRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -73,10 +73,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "TrapTileRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -87,10 +87,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "TombstoneRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -101,10 +101,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "BackpackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -115,10 +115,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CabinetRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -129,10 +129,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "SurfBoardRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -143,10 +143,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CommonAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -157,10 +157,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "DinoRaptorAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -41,
@@ -171,10 +171,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "DinoPteroAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 30,
@@ -185,10 +185,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "DinoPteroHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -199,10 +199,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "KongfuReckWarningRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -43,
@@ -213,10 +213,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "MonkDrinkAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -90,
@@ -227,10 +227,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "MonkDrinkVeteranAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -90,
@@ -241,10 +241,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "LostcityJaneHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -255,10 +255,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "LostcityJaneAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -269,10 +269,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "LostcityExcavatorWithShovelHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -283,10 +283,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "LostcityExcavatorWithShovelAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -40,
@@ -297,10 +297,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "IceageDodoHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -311,10 +311,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "IceageDodoAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -20,
@@ -325,10 +325,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "DarkKingHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -339,10 +339,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "DarkKingAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -353,10 +353,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureMechConeHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -367,10 +367,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureMechConeAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -10,
@@ -381,10 +381,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "SkyBattlePlaneHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -395,10 +395,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "SkyBattlePlaneAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -30,
@@ -409,10 +409,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "SkyArbiterXHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -423,10 +423,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "SkyArbiterXAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -70,
@@ -437,10 +437,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "SkyTwinHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -451,10 +451,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "SkyTwinAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -50,
@@ -465,10 +465,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "SkyAirRaidTwinHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -479,10 +479,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "SkyAirRaidTwinAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -50,
@@ -493,10 +493,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureDiscoMechHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -507,10 +507,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureDiscoMechAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -30,
@@ -521,10 +521,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureFootballMechHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -535,10 +535,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureFootballMechAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -20,
@@ -549,10 +549,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureProtectorShieldHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -563,10 +563,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureProtectorShieldAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -577,10 +577,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "ModernMoonflowerShieldHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 18,
@@ -591,10 +591,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "ModernMoonflowerShieldAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 18,
@@ -605,10 +605,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureProtectorHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -619,10 +619,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureProtectorAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -633,10 +633,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureJetpackHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -647,10 +647,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "FutureJetpackAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -661,10 +661,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CowboyBullHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -16,
@@ -675,10 +675,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CowboyBullAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -50,
@@ -689,10 +689,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CowboyChickenHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -703,10 +703,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CowboyChickenAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -717,10 +717,52 @@
       }
     },
     {
+      "objclass": "RectangleProps",
+      "aliases": [
+        "TurkeyPultTurkeyAttackRect"
+      ],
+      "objdata": {
+        "Values": {
+          "x": -5,
+          "y": 30,
+          "w": 32,
+          "h": 60
+        }
+      }
+    },
+    {
+      "objclass": "RectangleProps",
+      "aliases": [
+        "TurkeyPultBigTurkeyHitRect"
+      ],
+      "objdata": {
+        "Values": {
+          "x": 0,
+          "y": 45,
+          "w": 72,
+          "h": 90
+        }
+      }
+    },
+    {
+      "objclass": "RectangleProps",
+      "aliases": [
+        "TurkeyPultBigTurkeyAttackRect"
+      ],
+      "objdata": {
+        "Values": {
+          "x": -7.5,
+          "y": 45,
+          "w": 48,
+          "h": 90
+        }
+      }
+    },
+    {
+      "objclass": "RectangleProps",
       "aliases": [
         "ImpHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -731,10 +773,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "ImpAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -745,10 +787,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "GargantuarHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -759,10 +801,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "GargantuarAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -30,
@@ -773,10 +815,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "BobsledTeamHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -787,10 +829,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "BobsledTeamAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -801,10 +843,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "BalloonHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -10,
@@ -815,10 +857,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "BalloonAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -829,10 +871,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "BullyHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -843,10 +885,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "BullyAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -857,10 +899,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "ZomboniHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 5,
@@ -871,10 +913,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "ZomboniAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 5,
@@ -885,10 +927,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CatapultHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -899,10 +941,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CatapultAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -913,10 +955,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CamelSegmentHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -927,10 +969,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CamelSegmentAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -941,10 +983,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "ExplorerWithFireHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -32,
@@ -955,10 +997,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "ExplorerWithFireAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -72,
@@ -969,10 +1011,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "MonkTorchWithFireHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -983,10 +1025,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "Abbot3SectionStaffAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -44,
@@ -997,10 +1039,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "MonkTorchWithFireAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1011,10 +1053,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "BladeAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": -32,
@@ -1025,10 +1067,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "PharoahHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1039,10 +1081,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "PharoahAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1053,10 +1095,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "ZombossMechHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1067,10 +1109,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "ZombossMechAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1081,10 +1123,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "LostcityZombossMechHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1095,10 +1137,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "LostcityZombossMechAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1109,10 +1151,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "EightiesZombossMechHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 90,
@@ -1123,10 +1165,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "IceageZombossMechHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1137,10 +1179,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "IceageZombossMechAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1151,10 +1193,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "PirateBarrelHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1165,10 +1207,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "PirateBarrelAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1179,10 +1221,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "PirateCannonHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1193,10 +1235,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "PirateCannonAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1207,10 +1249,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "PirateParrotHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1221,10 +1263,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "PirateParrotAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1235,10 +1277,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CowboyPianoHitRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,
@@ -1249,10 +1291,10 @@
       }
     },
     {
+      "objclass": "RectangleProps",
       "aliases": [
         "CowboyPianoAttackRect"
       ],
-      "objclass": "RectangleProps",
       "objdata": {
         "Values": {
           "x": 0,

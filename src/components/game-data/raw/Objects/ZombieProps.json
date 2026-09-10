@@ -642,6 +642,35 @@
 		{
 			"objclass": "ZombieProperties",
 			"aliases": [
+				"supernova_gargantuar"
+			],
+			"objdata": {
+				"ZombieSort": "Gargantuar",
+				"CannotBeTransformedByWitchHazel": true,
+				"CannotBeEnlightenedBySolarSage": true,
+				"CannotBeGrabbedByPtero": true,
+				"CannotChangeLaneByPowerToss": true,
+				"CannotBeFlickedByPowerToss": true,
+				"CannotBeDraggedByTangleKelp": true,
+				"CannotBeTossedByCitron": true,
+				"CannotBeSwallowedByChomper": true,
+				"CannotCarryPlantfoodsInWaves": true,
+				"SmashDamage": 2700,
+				"WalkSPS": 0.24,
+				"EatDPS": 100,
+				"Toughness": 3600,
+				"MaxSmashTargetCount": 999999,
+				"LivesInDeepWater": true,
+				"NormalDeathWhenMowed": true,
+				"WavePointCost": 2500,
+				"Weight": 3000,
+				"HitRect": "RTID(GargantuarHitRect@RectangleProps)",
+				"AttackRect": "RTID(GargantuarAttackRect@RectangleProps)"
+			}
+		},
+		{
+			"objclass": "ZombieProperties",
+			"aliases": [
 				"birthday_gargantuar"
 			],
 			"objdata": {
@@ -3998,6 +4027,102 @@
 		{
 			"objclass": "ZombieProperties",
 			"aliases": [
+				"turkeypult_turkey"
+			],
+			"objdata": {
+				"LivesInDeepWater": true,
+				"CannotBeEnlightenedBySolarSage": true,
+				"KilledByShrinkingViolet": true,
+				"CannotBeGrabbedByPtero": true,
+				"CanBeEasilySwallowedByChomper": true,
+				"ImmuneToSporeShroom": true,
+				"WalkSPS": 2,
+				"WalkSPSVarience": 0,
+				"EatDPS": 65,
+				"Toughness": 55,
+				"DoesNotDamageHeavilyToGarlic": true,
+				"NormalDeathWhenMowed": true,
+				"WavePointCost": 10,
+				"Weight": 0,
+				"HitRect": "RTID(CowboyChickenHitRect@RectangleProps)",
+				"AttackRect": "RTID(TurkeyPultTurkeyAttackRect@RectangleProps)"
+			}
+		},
+		{
+			"objclass": "ZombieProperties",
+			"aliases": [
+				"turkeypult_turkey_mint"
+			],
+			"objdata": {
+				"LivesInDeepWater": true,
+				"CannotBeEnlightenedBySolarSage": true,
+				"KilledByShrinkingViolet": true,
+				"CannotBeGrabbedByPtero": true,
+				"CanBeEasilySwallowedByChomper": true,
+				"ImmuneToSporeShroom": true,
+				"WalkSPS": 2,
+				"WalkSPSVarience": 0,
+				"EatDPS": 260,
+				"Toughness": 110,
+				"DoesNotDamageHeavilyToGarlic": true,
+				"NormalDeathWhenMowed": true,
+				"WavePointCost": 100,
+				"Weight": 0,
+				"HitRect": "RTID(CowboyChickenHitRect@RectangleProps)",
+				"AttackRect": "RTID(TurkeyPultTurkeyAttackRect@RectangleProps)"
+			}
+		},
+		{
+			"objclass": "ZombieProperties",
+			"aliases": [
+				"turkeypult_big_turkey"
+			],
+			"objdata": {
+				"LivesInDeepWater": true,
+				"CannotBeEnlightenedBySolarSage": true,
+				"KilledByShrinkingViolet": true,
+				"CannotBeGrabbedByPtero": true,
+				"CanBeEasilySwallowedByChomper": true,
+				"ImmuneToSporeShroom": true,
+				"WalkSPS": 1,
+				"WalkSPSVarience": 0,
+				"EatDPS": 105,
+				"Toughness": 450,
+				"DoesNotDamageHeavilyToGarlic": true,
+				"NormalDeathWhenMowed": true,
+				"WavePointCost": 300,
+				"Weight": 0,
+				"HitRect": "RTID(TurkeyPultBigTurkeyHitRect@RectangleProps)",
+				"AttackRect": "RTID(TurkeyPultBigTurkeyAttackRect@RectangleProps)"
+			}
+		},
+		{
+			"objclass": "ZombieProperties",
+			"aliases": [
+				"turkeypult_big_turkey_mint"
+			],
+			"objdata": {
+				"LivesInDeepWater": true,
+				"CannotBeEnlightenedBySolarSage": true,
+				"KilledByShrinkingViolet": true,
+				"CannotBeGrabbedByPtero": true,
+				"CanBeEasilySwallowedByChomper": true,
+				"ImmuneToSporeShroom": true,
+				"WalkSPS": 1,
+				"WalkSPSVarience": 0,
+				"EatDPS": 420,
+				"Toughness": 900,
+				"DoesNotDamageHeavilyToGarlic": true,
+				"NormalDeathWhenMowed": true,
+				"WavePointCost": 10,
+				"Weight": 0,
+				"HitRect": "RTID(TurkeyPultBigTurkeyHitRect@RectangleProps)",
+				"AttackRect": "RTID(TurkeyPultBigTurkeyAttackRect@RectangleProps)"
+			}
+		},
+		{
+			"objclass": "ZombieProperties",
+			"aliases": [
 				"chicken_pumpkin"
 			],
 			"objdata": {
@@ -6169,8 +6294,8 @@
 				"LeapBackDistance": 0.5,
 				"FlyingSpeedScale": 4.5,
 				"EatDPS": 100,
-				"Toughness": 600,
-				"WavePointCost": 400,
+				"Toughness": 300,
+				"WavePointCost": 300,
 				"Weight": 500,
 				"HitRect": "RTID(ImpHitRect@RectangleProps)",
 				"AttackRect": "RTID(ImpAttackRect@RectangleProps)",
@@ -6829,6 +6954,35 @@
 				"Weight": 1500,
 				"HitRect": "RTID(FutureProtectorHitRect@RectangleProps)",
 				"AttackRect": "RTID(FutureProtectorAttackRect@RectangleProps)"
+			}
+		},
+		{
+			"objclass": "ZombieProperties",
+			"aliases": [
+				"sky_battery"
+			],
+			"objdata": {
+				"IgnoredBySnapPea": true,
+				"CannotBeTransformedByWitchHazel": true,
+				"CannotBeHypnotizedByProjectiles": true,
+				"CannotBeEnlightenedBySolarSage": true,
+				"CannotBeGrabbedByPtero": true,
+				"CannotBeDraggedByTangleKelp": true,
+				"CannotBeSwallowedByChomper": true,
+				"ChiliStunDurationMult": 0,
+				"CannotCarryPlantfoodsInWaves": true,
+				"WalkSPS": 0.4,
+				"WalkSPSVarience": 0,
+				"EatDPS": 100,
+				"Toughness": 1200,
+				"NormalDeathWhenMowed": true,
+				"ImmuneToGarlic": true,
+				"WavePointCost": 100,
+				"Weight": 0,
+				"DamageInterval": 0.25,
+				"DamagePerHit": 50,
+				"HitRect": "RTID(FutureProtectorShieldHitRect@RectangleProps)",
+				"AttackRect": "RTID(FutureProtectorShieldAttackRect@RectangleProps)"
 			}
 		},
 		{
@@ -9397,6 +9551,8 @@
 				"beach_fisherman"
 			],
 			"objdata": {
+				"ZombossLaneSummon": true,
+				"ImmuneToZomboss": true,
 				"CannotBeHypnotizedByProjectiles": true,
 				"CannotBeGrabbedByPtero": true,
 				"DelayBeforeReeling": 0.3,
@@ -9408,7 +9564,7 @@
 				"Toughness": 1000,
 				"ImmuneToGarlic": true,
 				"WavePointCost": 700,
-				"Weight": 2500,
+				"Weight": 1500,
 				"HitRect": "RTID(CommonHitRect@RectangleProps)",
 				"AttackRect": "RTID(CommonAttackRect@RectangleProps)",
 				"PlantablePlants": [
@@ -12806,6 +12962,8 @@
 				"sky_dronemaker"
 			],
 			"objdata": {
+				"ZombossLaneSummon": true,
+				"ImmuneToZomboss": true,
 				"CannotBeTransformedByWitchHazel": true,
 				"ImmuneToShrinkingViolet": true,
 				"ImmuneToSporeShroom": true,
@@ -13351,6 +13509,296 @@
 					"Min": 3,
 					"Max": 3.5
 				}
+			}
+		},
+		{
+			"objclass": "ZombieProperties",
+			"aliases": [
+				"zombossmech_sky"
+			],
+			"objdata": {
+				"BatteryType": "sky_battery",
+				"BatteryLowerType": "sky_battery_lower",
+				"ThunderStormType": "sky_zomboss_storm",
+				"BulletType": "sky_battleplane_bullet",
+				"StompDamageToZombies": 1500,
+				"SmashDistance": 1,
+				"CannotBeEnlightenedBySolarSage": true,
+				"ImmuneToSweetPotato": true,
+				"ImmuneToShrinkingViolet": true,
+				"IgnoredBySnapPea": true,
+				"ZombieSort": "Zomboss",
+				"CannotBeGrabbedByPtero": true,
+				"CannotBeDetectedByPowerToss": true,
+				"CannotBeDraggedByTangleKelp": true,
+				"CannotBeTossedByCitron": true,
+				"CannotBeDetectedBySapfling": true,
+				"CannotBeSwallowedByChomper": true,
+				"ChiliStunDurationMult": 0,
+				"CannotCarryPlantfoodsInWaves": true,
+				"FoeEatDamageReflectPct": 0.5,
+				"LivesInDeepWater": true,
+				"WalkSPS": 0.185,
+				"EatDPS": 100,
+				"Toughness": 190,
+				"ImmuneToGarlic": true,
+				"WavePointCost": 100,
+				"Weight": 0,
+				"IdleColumn": 6,
+				"HitRect": "RTID(ZombossMechHitRect@RectangleProps)",
+				"AttackRect": "RTID(ZombossMechAttackRect@RectangleProps)",
+				"ZombossMechLevel": 0,
+				"ZombossStages": [
+					{
+						"AnimRateModifier": 1,
+						"ChilledDurationFromFrozen": 10,
+						"DamageIndexFull": 0,
+						"DamageIndexHalf": 0,
+						"HitPoints": 8000,
+						"MaxIdleTime": 1,
+						"MinIdleTime": 0.5,
+						"StunDamageScale": 1.5,
+						"StunStaggerBackMovement": 1,
+						"StunStaggerBackTime": 0.4,
+						"StunTime": 4,
+						"Actions": [
+							{
+								"actionName": "rush",
+								"weight": 4,
+								"repeatMax": 1,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 1000,
+									"pointMax": 2000,
+									"zombieList": []
+								}
+							},
+							{
+								"actionName": "rush2",
+								"weight": 7,
+								"repeatMax": 1,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 1000,
+									"pointMax": 2000,
+									"zombieList": []
+								}
+							},
+							{
+								"actionName": "walk",
+								"weight": 2,
+								"repeatMax": 1,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 1000,
+									"pointMax": 2000,
+									"zombieList": []
+								}
+							},
+							{
+								"actionName": "shoot",
+								"weight": 9,
+								"repeatMax": 2,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 1000,
+									"pointMax": 2000,
+									"zombieList": []
+								}
+							},
+							{
+								"actionName": "summon",
+								"weight": 12,
+								"repeatMax": 2,
+								"repeatMin": 2,
+								"summonProps": {
+									"pointMin": 600,
+									"pointMax": 2600,
+									"zombieList": [
+										"sky",
+										"sky_armor1",
+										"sky_armor2",
+										"sky_electric",
+										"sky_dronemaker"
+									]
+								}
+							}
+						],
+						"ThunderCount": {
+							"Min": 2,
+							"Max": 3
+						},
+						"ThunderLinkedPlantCount": {
+							"Min": 2,
+							"Max": 3
+						}
+					},
+					{
+						"AnimRateModifier": 1,
+						"ChilledDurationFromFrozen": 10,
+						"DamageIndexFull": 3,
+						"DamageIndexHalf": 3,
+						"HitPoints": 16000,
+						"MaxIdleTime": 0.7,
+						"MinIdleTime": 0.5,
+						"StunDamageScale": 1.5,
+						"StunStaggerBackMovement": 1,
+						"StunStaggerBackTime": 0.4,
+						"StunTime": 3.5,
+						"Actions": [
+							{
+								"actionName": "walk",
+								"weight": 2,
+								"repeatMax": 1,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 1000,
+									"pointMax": 2000,
+									"zombieList": []
+								}
+							},
+							{
+								"actionName": "rush",
+								"weight": 8,
+								"repeatMax": 1,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 1000,
+									"pointMax": 2000,
+									"zombieList": []
+								}
+							},
+							{
+								"actionName": "rush2",
+								"weight": 8,
+								"repeatMax": 1,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 1000,
+									"pointMax": 2000,
+									"zombieList": []
+								}
+							},
+							{
+								"actionName": "shoot",
+								"weight": 8,
+								"repeatMax": 2,
+								"repeatMin": 2,
+								"summonProps": {
+									"pointMin": 1000,
+									"pointMax": 2000,
+									"zombieList": []
+								}
+							},
+							{
+								"actionName": "summon",
+								"weight": 14,
+								"repeatMax": 2,
+								"repeatMin": 2,
+								"summonProps": {
+									"pointMin": 2200,
+									"pointMax": 3500,
+									"zombieList": [
+										"sky",
+										"sky_armor1",
+										"sky_armor2",
+										"sky_battleplane",
+										"sky_twin"
+									]
+								}
+							}
+						],
+						"ThunderCount": {
+							"Min": 4,
+							"Max": 5
+						},
+						"ThunderLinkedPlantCount": {
+							"Min": 2,
+							"Max": 3
+						}
+					},
+					{
+						"TurnsIntoShipInThisStage": true,
+						"AnimRateModifier": 1,
+						"ChilledDurationFromFrozen": 10,
+						"DamageIndexFull": 6,
+						"DamageIndexHalf": 6,
+						"HitPoints": 12000,
+						"MaxIdleTime": 0.6,
+						"MinIdleTime": 0.4,
+						"StunDamageScale": 1.5,
+						"StunStaggerBackMovement": 1,
+						"StunStaggerBackTime": 0.4,
+						"StunTime": 3,
+						"ShipRushProjectileCount": 160,
+						"Actions": [
+							{
+								"actionName": "walk",
+								"weight": 1,
+								"repeatMax": 2,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 1000,
+									"pointMax": 2000,
+									"zombieList": []
+								}
+							},
+							{
+								"actionName": "summon",
+								"weight": 12,
+								"repeatMax": 2,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 1350,
+									"pointMax": 2950,
+									"zombieList": [
+										"sky",
+										"sky_armor1",
+										"sky_gargantuar",
+										"sky_arbiterx"
+									]
+								}
+							},
+							{
+								"actionName": "summon",
+								"weight": 3,
+								"repeatMax": 1,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 100,
+									"pointMax": 100,
+									"columnOffset": -2,
+									"plantfoodchance": 0,
+									"zombieList": [
+										"sky_dropship"
+									]
+								}
+							},
+							{
+								"actionName": "rush",
+								"weight": 4,
+								"repeatMax": 1,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 1000,
+									"pointMax": 2000,
+									"zombieList": []
+								}
+							},
+							{
+								"actionName": "shoot",
+								"weight": 5,
+								"repeatMax": 1,
+								"repeatMin": 1,
+								"summonProps": {
+									"pointMin": 1000,
+									"pointMax": 2000,
+									"zombieList": []
+								}
+							}
+						]
+					}
+				]
 			}
 		},
 		{

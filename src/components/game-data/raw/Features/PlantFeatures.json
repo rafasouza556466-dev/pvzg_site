@@ -118,8 +118,8 @@
 				"PlantPlace": "dirt"
 			},
 			"RES": {
-				"Disabled": "Cabbage-pult",
-				"Plant": "Cabbage-pult"
+				"Disabled": "CabbagePult",
+				"Plant": "CabbagePult"
 			}
 		},
 		{
@@ -753,8 +753,8 @@
 				"PlantPlace": "dirt"
 			},
 			"RES": {
-				"Disabled": "Kernel-pult",
-				"Plant": "Kernel-pult"
+				"Disabled": "KernelPult",
+				"Plant": "KernelPult"
 			}
 		},
 		{
@@ -849,8 +849,8 @@
 				"PlantPlace": "dirt"
 			},
 			"RES": {
-				"Disabled": "Melon-pult",
-				"Plant": "Melon-pult"
+				"Disabled": "MelonPult",
+				"Plant": "MelonPult"
 			}
 		},
 		{
@@ -1887,7 +1887,7 @@
 		},
 		{
 			"ID": 77,
-			"COSTUME": 3,
+			"COSTUME": 4,
 			"_CARDSPRITENAME": "jackolantern",
 			"CODENAME": "jackolantern",
 			"OBTAINWORLD": "market",
@@ -3895,7 +3895,7 @@
 			"ID": 156,
 			"_CARDSPRITENAME": "firegourd",
 			"CODENAME": "firegourd",
-			"COSTUME": 1,
+			"COSTUME": 2,
 			"OBTAINWORLD": "kongfu",
 			"BOOST": 2,
 			"ALMANAC": "RTID(firegourd@PlantAlmanac)",
@@ -4111,8 +4111,8 @@
 				"PlantPlace": "dirt"
 			},
 			"RES": {
-				"Disabled": "Cantaloupe-pult",
-				"Plant": "Cantaloupe-pult"
+				"Disabled": "CantaloupePult",
+				"Plant": "CantaloupePult"
 			}
 		},
 		{
@@ -5087,7 +5087,7 @@
 			"ALMANAC": "RTID(bulbkekengi@PlantAlmanac)",
 			"PROPS": "RTID(bulbkekengi@PlantProps)",
 			"NAME": {
-				"en": "Bulbkekengi",
+				"en": "Glowkengi",
 				"zh": "灯笼草"
 			},
 			"TAGS": [
@@ -5344,6 +5344,102 @@
 				"Disabled": "WitchHazel",
 				"Plant": "WitchHazel"
 			}
+		},
+		{
+			"ID": 213,
+			"_CARDSPRITENAME": "blastberrivine",
+			"CODENAME": "blastberry",
+			"COSTUME": 0,
+			"OBTAINWORLD": "epic",
+			"BOOST": 3,
+			"ALMANAC": "RTID(blastberry@PlantAlmanac)",
+			"PROPS": "RTID(blastberry@PlantProps)",
+			"NAME": {
+				"en": "Blastberry Vine",
+				"zh": "爆莓藤蔓"
+			},
+			"TAGS": [
+				"vine"
+			],
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"RES": {
+				"Disabled": "BlastBerryVine",
+				"Plant": "BlastBerryVine"
+			}
+		},
+		{
+			"ID": 214,
+			"_CARDSPRITENAME": "turkeypult",
+			"CODENAME": "turkeypult",
+			"COSTUME": 1,
+			"OBTAINWORLD": "lod",
+			"BOOST": 2,
+			"ALMANAC": "RTID(turkeypult@PlantAlmanac)",
+			"PROPS": "RTID(turkeypult@PlantProps)",
+			"NAME": {
+				"en": "Turkey-pult",
+				"zh": "火鸡投手"
+			},
+			"TAGS": [
+				"plant"
+			],
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"RES": {
+				"Disabled": "TurkeyPult",
+				"Plant": "TurkeyPult"
+			}
+		},
+		{
+			"ID": 215,
+			"_CARDSPRITENAME": "stickybombrice",
+			"CODENAME": "stickybombrice",
+			"COSTUME": 1,
+			"OBTAINWORLD": "epic",
+			"BOOST": 3,
+			"ALMANAC": "RTID(stickybombrice@PlantAlmanac)",
+			"PROPS": "RTID(stickybombrice@PlantProps)",
+			"NAME": {
+				"en": "Stickybomb Rice",
+				"zh": "糯米投弹手"
+			},
+			"TAGS": [
+				"plant"
+			],
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"RES": {
+				"Disabled": "StickyBombRice",
+				"Plant": "StickyBombRice"
+			}
+		},
+		{
+			"ID": 216,
+			"_CARDSPRITENAME": "lotorpedo",
+			"CODENAME": "lotorpedo",
+			"COSTUME": 1,
+			"OBTAINWORLD": "epic",
+			"BOOST": 3,
+			"ALMANAC": "RTID(lotorpedo@PlantAlmanac)",
+			"PROPS": "RTID(lotorpedo@PlantProps)",
+			"NAME": {
+				"en": "Lotorpedo",
+				"zh": "鱼雷莲蓬"
+			},
+			"TAGS": [
+				"amphibious"
+			],
+			"ZENGARDEN": {
+				"PlantPlace": "dirt"
+			},
+			"RES": {
+				"Disabled": "Lotorpedo",
+				"Plant": "Lotorpedo"
+			}
 		}
 	],
 	"SEEDCHOOSERDEFAULTORDER": [
@@ -5429,6 +5525,9 @@
 		"ghostpepper",
 		"parsnip",
 		"icebloom",
+		"stickybombrice",
+		"lotorpedo",
+		"blastberry",
 		"hurrikale",
 		"hotpotato",
 		"pepperpult",
@@ -5455,6 +5554,7 @@
 		"zoybeanpod",
 		"aloe",
 		"shinevine",
+		"turkeypult",
 		"firegourd",
 		"snowpea",
 		"bambooshoot",
@@ -5485,7 +5585,6 @@
 		"coldsnapdragon",
 		"primalsunflower",
 		"primalpotatomine",
-		"shrinkingviolet",
 		"meteorflower",
 		"explodeonut",
 		"skyshooter",
@@ -5497,6 +5596,7 @@
 		"bulbkekengi",
 		"peacommando",
 		"floawerPot",
+		"shrinkingviolet",
 		"moonflower",
 		"nightshade",
 		"shadowshroom",
@@ -5635,6 +5735,9 @@
 		"ghostpepper",
 		"parsnip",
 		"icebloom",
+		"stickybombrice",
+		"lotorpedo",
+		"blastberry",
 		"snappea",
 		"tool_projectile_bowlingbulb1",
 		"tool_projectile_bowlingbulb2",
@@ -5672,6 +5775,7 @@
 		"zoybeanpod",
 		"aloe",
 		"shinevine",
+		"turkeypult",
 		"firegourd",
 		"snowpea",
 		"bambooshoot",

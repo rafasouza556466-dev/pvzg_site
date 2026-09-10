@@ -30,6 +30,13 @@
 		},
 		{
 			"CommodityType": "plant",
+			"CommodityName": "turkeypult",
+			"CurrencyType": "ticket",
+			"CurrencyRequired": 1000,
+			"PlantWeekDiscount": 0.25
+		},
+		{
+			"CommodityType": "plant",
 			"CommodityName": "shootingstarfruit",
 			"CurrencyType": "ticket",
 			"CurrencyRequired": 1000,

@@ -49,6 +49,7 @@ const stats = {
   detachedSpawnActions: 0,
   modulesWithoutManagerReference: 0,
   dynamicWithoutManagerReference: 0,
+  emptyDynamicWithoutManagerReference: 0,
   externalManagerReferenceOwners: 0,
   extendedRootLevels: 0,
   objectsWithoutClass: 0
@@ -141,9 +142,13 @@ for (const fileName of levelFiles) {
 
   if (Object.prototype.hasOwnProperty.call(moduleObject?.objdata || {}, 'DynamicZombies')) {
     stats.dynamicLevels += 1;
-    if (!supportsDynamic) stats.dynamicWithoutManagerReference += 1;
     const dynamicZombies = moduleObject.objdata.DynamicZombies;
     assert.ok(Array.isArray(dynamicZombies), `${fileName}: DynamicZombies must be an array`);
+    if (!supportsDynamic) {
+      // Vasebreaker levels can retain an empty module without a wave manager link.
+      if (dynamicZombies.length === 0) stats.emptyDynamicWithoutManagerReference += 1;
+      else stats.dynamicWithoutManagerReference += 1;
+    }
     if (dynamicZombies.length === 7) stats.dynamicSevenSlots += 1;
     else if (dynamicZombies.length === 0) stats.dynamicEmptySlots += 1;
     else stats.dynamicOtherLengths += 1;
@@ -286,5 +291,5 @@ console.log(
   `Detached spawn actions preserved as opaque objects: ${stats.detachedSpawnActions}; ${stats.externalManagerReferenceOwners} wave managers are referenced by another current-level object.`
 );
 console.log(
-  `Unresolved wave manager ownership: ${stats.modulesWithoutManagerReference} modules (${stats.dynamicWithoutManagerReference} contain DynamicZombies). Top-level extensions: ${stats.extendedRootLevels} levels; objects without objclass preserved for review: ${stats.objectsWithoutClass}.`
+  `Unresolved wave manager ownership: ${stats.modulesWithoutManagerReference} modules (${stats.dynamicWithoutManagerReference} contain non-empty DynamicZombies; ${stats.emptyDynamicWithoutManagerReference} contain empty arrays). Top-level extensions: ${stats.extendedRootLevels} levels; objects without objclass preserved for review: ${stats.objectsWithoutClass}.`
 );

@@ -376,6 +376,71 @@
 			}
 		},
 		{
+			"//": "gargantuar",
+			"objclass": "ZombieAlmanacProperties",
+			"aliases": [
+				"supernova_gargantuar"
+			],
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "TOUGHNESS",
+						"PROGRESS": 0.9,
+						"SORT": {
+							"en": "Great",
+							"zh": "巨大"
+						}
+					},
+					{
+						"TYPE": "SPEED",
+						"PROGRESS": 0.6,
+						"SORT": {
+							"en": "Hungry",
+							"zh": "饥渴"
+						}
+					}
+				],
+				"Introduction": {
+					"en": "Gargantuar that destroys plants that look the same in one strike.",
+					"zh": "能一发摧毁所有相同植物的巨尸。"
+				},
+				"Special": [
+					{
+						"NAME": {
+							"en": "Damage",
+							"zh": "攻击"
+						},
+						"DESCRIPTION": {
+							"en": "crushes plants with supernova cane",
+							"zh": "用超新星权杖摧毁植物"
+						}
+					},
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "destroys all the plants that are the same as those which have just been smashed",
+							"zh": "砸击植物时，同时摧毁所有相同的植物"
+						}
+					}
+				],
+				"Chat": {
+					"en": "This one's got a real temper on him. When he decides to take out a Plant...it's brutal. Just brutal.",
+					"zh": "这家伙是真的非常暴脾气，只要他想解决掉一株植物……那场面，简直残暴，残暴至极。"
+				},
+				"DisplayOffset": {
+					"x": 20,
+					"y": -60
+				},
+				"DisplayScale": {
+					"x": 1,
+					"y": 1
+				}
+			}
+		},
+		{
 			"objclass": "ZombieAlmanacProperties",
 			"aliases": [
 				"empty"
@@ -5012,10 +5077,10 @@
 				"Elements": [
 					{
 						"TYPE": "TOUGHNESS",
-						"PROGRESS": 0.5,
+						"PROGRESS": 0.4,
 						"SORT": {
-							"en": "Protected",
-							"zh": "加强"
+							"en": "Solid",
+							"zh": "略强"
 						}
 					},
 					{
@@ -10516,6 +10581,61 @@
 				"DisplayOffset": {
 					"x": 20,
 					"y": -60
+				},
+				"DisplayScale": {
+					"x": 1,
+					"y": 1
+				}
+			}
+		},
+		{
+			"//": "zomboss",
+			"objclass": "ZombieAlmanacProperties",
+			"aliases": [
+				"zombossmech_sky"
+			],
+			"objdata": {
+				"Elements": [
+					{
+						"TYPE": "TOUGHNESS",
+						"PROGRESS": 1,
+						"SORT": {
+							"en": "Undying",
+							"zh": "不朽"
+						}
+					},
+					{
+						"TYPE": "SPEED",
+						"PROGRESS": 0.6,
+						"SORT": {
+							"en": "Hungry",
+							"zh": "饥渴"
+						}
+					}
+				],
+				"Introduction": {
+					"en": "He who commands the storm and the skies — the undisputed ruler of the zombies!",
+					"zh": "呼风唤雨, 电闪雷鸣, 僵尸界的天空王者!"
+				},
+				"Special": [
+					{
+						"NAME": {
+							"en": "Special",
+							"zh": "特点"
+						},
+						"DESCRIPTION": {
+							"en": "Charge toward your defence, firing lightning and bullets",
+							"zh": "向你的阵营冲刺、发射雷电和子弹"
+						}
+					}
+				],
+				"Chat": {
+					"en": "Dr. Zomboss' breakthrough after a two-night research, utilizing the most cutting-edge bionic z-tech, earned thunderous applause at the Zombot Vulture Warplane's unveilin. A few zombies clapped so hard that they broke their arms.",
+					"zh": "僵尸博士通宵两晚的的研究成果, 使用了僵尸界最前沿的仿生机械技术, 在秃鹫战机的发布会上赢得了热烈的掌声, 听说有不少僵尸手都拍掉了。"
+				},
+				"DisplayOffset": {
+					"x": -100,
+					"y": -100
 				},
 				"DisplayScale": {
 					"x": 1,

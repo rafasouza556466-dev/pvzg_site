@@ -49,11 +49,61 @@
 		{
 			"objclass": "ZombieType",
 			"aliases": [
+				"supernova_gargantuar"
+			],
+			"objdata": {
+				"Properties": "RTID(supernova_gargantuar@ZombieProps)",
+				"ZombieBasedOn": "supernova_gargantuar"
+			}
+		},
+		{
+			"objclass": "ZombieType",
+			"aliases": [
 				"easter"
 			],
 			"objdata": {
 				"Properties": "RTID(tutorial@ZombieProps)",
 				"ZombieBasedOn": "easter"
+			}
+		},
+		{
+			"objclass": "ZombieType",
+			"aliases": [
+				"turkeypult_turkey"
+			],
+			"objdata": {
+				"Properties": "RTID(turkeypult_turkey@ZombieProps)",
+				"ZombieBasedOn": "turkeypult_turkey"
+			}
+		},
+		{
+			"objclass": "ZombieType",
+			"aliases": [
+				"turkeypult_big_turkey"
+			],
+			"objdata": {
+				"Properties": "RTID(turkeypult_big_turkey@ZombieProps)",
+				"ZombieBasedOn": "turkeypult_big_turkey"
+			}
+		},
+		{
+			"objclass": "ZombieType",
+			"aliases": [
+				"turkeypult_turkey_mint"
+			],
+			"objdata": {
+				"Properties": "RTID(turkeypult_turkey_mint@ZombieProps)",
+				"ZombieBasedOn": "turkeypult_turkey"
+			}
+		},
+		{
+			"objclass": "ZombieType",
+			"aliases": [
+				"turkeypult_big_turkey_mint"
+			],
+			"objdata": {
+				"Properties": "RTID(turkeypult_big_turkey_mint@ZombieProps)",
+				"ZombieBasedOn": "turkeypult_big_turkey"
 			}
 		},
 		{
@@ -1364,6 +1414,36 @@
 			"objdata": {
 				"Properties": "RTID(zombossmech_egypt2@ZombieProps)",
 				"ZombieBasedOn": "zombossmech_egypt2"
+			}
+		},
+		{
+			"objclass": "ZombieType",
+			"aliases": [
+				"sky_battery"
+			],
+			"objdata": {
+				"Properties": "RTID(sky_battery@ZombieProps)",
+				"ZombieBasedOn": "sky_battery"
+			}
+		},
+		{
+			"objclass": "ZombieType",
+			"aliases": [
+				"sky_battery_lower"
+			],
+			"objdata": {
+				"Properties": "RTID(sky_battery@ZombieProps)",
+				"ZombieBasedOn": "sky_battery_lower"
+			}
+		},
+		{
+			"objclass": "ZombieType",
+			"aliases": [
+				"zombossmech_sky"
+			],
+			"objdata": {
+				"Properties": "RTID(zombossmech_sky@ZombieProps)",
+				"ZombieBasedOn": "zombossmech_sky"
 			}
 		},
 		{
