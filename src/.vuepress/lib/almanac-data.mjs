@@ -338,7 +338,7 @@ const resolveBaseEntity = (kind, codename, locale, catalogRole = 'official') => 
   const similarity = {
     family: familyCode === 'Nope' ? '' : familyCode,
     world: feature.OBTAINWORLD ?? '',
-    types: (feature.TYPE ?? []).filter((type) => type !== kind),
+    types: (feature.TAGS ?? []).filter((type) => type !== kind),
     stats: [...new Set(stats.map((stat) => stat.type))],
     specials: [...new Set((almanacData.Special ?? [])
       .map((special) => special.NAME?.en ?? special.NAME?.zh)
